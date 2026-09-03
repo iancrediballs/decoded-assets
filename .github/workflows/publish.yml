@@ -1,0 +1,53 @@
+name: Publish Decoded posts
+
+on:
+  schedule:
+    # Every 15 minutes. GitHub's cron is best-effort and can lag 5-20 min under
+    # load, which is why publish.py accepts a slot up to WINDOW_MIN late.
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Log intentions without calling Meta"
+        type: boolean
+        default: true
+
+concurrency:
+  group: decoded-publish
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Publish due posts
+        env:
+          META_TOKEN: ${{ secrets.META_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+          ASSET_BASE_URL: ${{ vars.ASSET_BASE_URL }}
+          GRAPH_VERSION: ${{ vars.GRAPH_VERSION }}
+          DRY_RUN: ${{ inputs.dry_run && '1' || '' }}
+        run: python publish.py
+
+      - name: Commit state
+        if: always()
+        run: |
+          if [[ -n "$(git status --porcelain state.json)" ]]; then
+            git config user.name  "decoded-bot"
+            git config user.email "actions@github.com"
+            git add state.json
+            git commit -m "state: $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          else
+            echo "no state change"
+          fi

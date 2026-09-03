@@ -1,0 +1,208 @@
+{
+  "timezone_note": "slot_utc is UTC. Decoded posts in SAST = UTC+2.",
+  "posts": [
+    {
+      "id": "D001",
+      "slot_utc": "2026-09-02T17:30:00Z",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "slides_dir": "slides/D001",
+      "slides": [
+        "D001_01.png",
+        "D001_02.png",
+        "D001_03.png",
+        "D001_04.png",
+        "D001_05.png",
+        "D001_06.png",
+        "D001_07.png"
+      ],
+      "caption": "You're not forgetful. Nobody ever showed you that your phone will carry it for you. Try it ten times today. Save this for the next 'I must remember…'",
+      "hashtags": "#Decoded #TheTranslator #TechForRealLife #LifeSimplified #Over40 #SimplifyYourLife #PhoneTips #Reminders",
+      "caption_fb": "Straight talk: you're not losing your memory. You were never shown that your phone will carry the small stuff for you. Say it out loud — 'remind me tomorrow at 8 to call the school' — and it's handled. Do it ten times today and tell me how your head feels tonight.",
+      "hold": "Slot already passed unposted. Give it a new Slot in Airtable, then clear this hold."
+    },
+    {
+      "id": "D003",
+      "slot_utc": "2026-09-03T10:30:00Z",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "slides_dir": "slides/D003",
+      "slides": [
+        "D003_01.png",
+        "D003_02.png",
+        "D003_03.png",
+        "D003_04.png",
+        "D003_05.png",
+        "D003_06.png"
+      ],
+      "caption": "The Complexity Trap: firehose of data, decision fatigue, always late. The Decoded Life: curated signal, unified automation, clear head. Same person — the small stuff just runs itself now. Which morning is yours? Tell me below.",
+      "hashtags": "#Decoded #TheTranslator #LifeSimplified #TechForRealLife #DecisionFatigue #Automation #Over40 #MorningRoutine",
+      "hold": "Scheduled by hand in Meta Business Suite on 3 Sep. Do NOT auto-publish — it would double-post."
+    },
+    {
+      "id": "D004",
+      "slot_utc": "2026-09-04T05:00:00Z",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "slides_dir": "slides/D004",
+      "slides": [
+        "D004_01.png",
+        "D004_02.png",
+        "D004_03.png",
+        "D004_04.png",
+        "D004_05.png",
+        "D004_06.png",
+        "D004_07.png",
+        "D004_08.png"
+      ],
+      "caption": "Four words. No new apps. Audit → Eliminate → Automate → Integrate. Do step 1 tonight — it takes five minutes and it's the first time most people actually see the noise. Save this and send it to the friend who's always 'so behind'.",
+      "hashtags": "#Decoded #TheTranslator #LifeSimplified #TechForRealLife #DigitalDeclutter #SimplifyYourLife #Over40 #Productivity"
+    },
+    {
+      "id": "D005",
+      "slot_utc": "2026-09-05T10:30:00Z",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "slides_dir": "slides/D005",
+      "slides": [
+        "D005_01.png",
+        "D005_02.png",
+        "D005_03.png",
+        "D005_04.png",
+        "D005_05.png",
+        "D005_06.png",
+        "D005_07.png"
+      ],
+      "caption": "Your first AI prompt, word for word: 'Explain this to me in plain words and tell me exactly what I need to do.' Paste any confusing email or letter above it. That's the whole lesson. You're not behind — nobody showed you.",
+      "hashtags": "#Decoded #TheTranslator #TechForRealLife #AIForBeginners #ChatGPT #Over40 #LifeSimplified #PlainEnglish"
+    },
+    {
+      "id": "D002",
+      "slot_utc": "2026-09-06T17:30:00Z",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "slides_dir": "slides/D002",
+      "slides": [
+        "D002_01.png",
+        "D002_02.png",
+        "D002_03.png",
+        "D002_04.png",
+        "D002_05.png",
+        "D002_06.png",
+        "D002_07.png"
+      ],
+      "caption": "Most people aren't stuck because they're broken. They're stuck because nobody ever showed them how simple it actually is. I'm Ian. I'm The Translator. More soon.",
+      "hashtags": "#Decoded #TheTranslator #LifeSimplified #YoureNotBroken #MidlifeReset #Over40 #Resilience"
+    },
+    {
+      "id": "D008",
+      "slot_utc": "2026-09-07T05:00:00Z",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "slides_dir": "slides/D008",
+      "slides": [
+        "D008_01.png",
+        "D008_02.png",
+        "D008_03.png",
+        "D008_04.png",
+        "D008_05.png",
+        "D008_06.png",
+        "D008_07.png"
+      ],
+      "caption": "How to clean up your Gmail inbox without deleting anything: open one newsletter, tap the three dots, 'Filter messages like this', tick Skip the Inbox, send it to a folder called Later. Five senders tonight. Tomorrow your inbox is just people. Outlook users — 'Rules' does the same thing; comment if you want that version. Save this for tonight.",
+      "hashtags": "#Decoded #TheTranslator #TechForRealLife #LifeSimplified #Gmail #EmailTips #Over40 #DigitalDeclutter",
+      "caption_fb": "I'm going to save some of you an hour a day. Your inbox isn't full, it's unsorted — the school email is buried under thirty shops and newsletters. Open one newsletter, tap the three dots, choose 'Filter messages like this', tick 'Skip the Inbox' and send it to a folder called Later. Do it for five senders tonight. Tomorrow morning your inbox is just people. Nothing deleted, nothing lost — it's just quiet. If you're on Outlook say so below and I'll do that version."
+    },
+    {
+      "id": "D006",
+      "slot_utc": "2026-09-08T10:30:00Z",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "slides_dir": "slides/D006",
+      "slides": [
+        "D006_01.png",
+        "D006_02.png",
+        "D006_03.png",
+        "D006_04.png",
+        "D006_05.png",
+        "D006_06.png"
+      ],
+      "caption": "The attention tax: dozens of tiny interruptions that cost nothing each and everything together. Reactive living versus proactive simplicity. Tonight: which notifications earned the right to interrupt you? Mute the rest. Send this to someone who's 'always busy'.",
+      "hashtags": "#Decoded #TheTranslator #LifeSimplified #Notifications #AttentionEconomy #Over40 #Burnout #SimplifyYourLife"
+    },
+    {
+      "id": "D013",
+      "slot_utc": "2026-09-09T17:30:00Z",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "slides_dir": "slides/D013",
+      "slides": [
+        "D013_01.png",
+        "D013_02.png",
+        "D013_03.png",
+        "D013_04.png",
+        "D013_05.png",
+        "D013_06.png"
+      ],
+      "caption": "Capable but invisible is not the same as behind. Your skill is fine — it just never got translated into the online world. That part's learnable, and it's simpler than anyone told you. Send this to the most underrated person you know.",
+      "hashtags": "#Decoded #TheTranslator #YoureNotBroken #LifeSimplified #Over40 #CareerChange #MidlifeReset #Confidence"
+    },
+    {
+      "id": "D007",
+      "slot_utc": "2026-09-10T17:30:00Z",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "slides_dir": "slides/D007",
+      "slides": [
+        "D007_01.png",
+        "D007_02.png",
+        "D007_03.png",
+        "D007_04.png",
+        "D007_05.png",
+        "D007_06.png"
+      ],
+      "caption": "Decoded is open for founding members. If you're 35–50, capable, tired, and quietly behind on the tech side of life — this was built for you. 90 days: the small stuff automated, your head back, someone who's walked it in your corner. Comment DECODED and I'll DM you. No pitch deck. Just a conversation.",
+      "hashtags": "#Decoded #TheTranslator #TechForRealLife #LifeSimplified #FoundingMember #Over40 #Coaching #MidlifeReset"
+    },
+    {
+      "id": "D010",
+      "slot_utc": "2026-09-12T10:30:00Z",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "slides_dir": "slides/D010",
+      "slides": [
+        "D010_01.png",
+        "D010_02.png",
+        "D010_03.png",
+        "D010_04.png",
+        "D010_05.png",
+        "D010_06.png",
+        "D010_07.png",
+        "D010_08.png"
+      ],
+      "caption": "How I simplified my life in 90 days (the technologist who was drowning in his own apps). Audit → Eliminate → Automate → Integrate. Forty-one pings down to thirteen. Three tiny automations. No new discipline required. Which one would you start with? Send this to the friend who's 'always behind'.",
+      "hashtags": "#Decoded #TheTranslator #LifeSimplified #TechForRealLife #DigitalMinimalism #Over40 #Automation #SimplifyYourLife",
+      "hold": "HONESTY: 41/28/13 are draft placeholders stated as fact in the caption. Replace with real numbers or cut that sentence, then clear this hold."
+    }
+  ]
+}
