@@ -25,6 +25,7 @@ Optional:
 """
 
 import json, os, sys, time, urllib.parse, urllib.request, urllib.error
+import concurrent.futures as cf
 from datetime import datetime, timezone
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -91,6 +92,32 @@ def slide_urls(post):
     return [f"{BASE}/{post['slides_dir']}/{n}" for n in post["slides"]]
 
 
+def check_urls(urls):
+    """Confirm every slide is publicly fetchable before Meta is asked to fetch it.
+
+    Meta reports a bad image URL as a generic container ERROR with no detail,
+    so catching it here is the difference between a clear message and an
+    afternoon of guessing. Returns a list of problems, empty if all good.
+    """
+    def one(u):
+        try:
+            req = urllib.request.Request(u, method="HEAD")
+            with urllib.request.urlopen(req, timeout=30) as r:
+                ctype = r.headers.get("Content-Type", "")
+                if not ctype.startswith("image/"):
+                    return f"{u} -> not an image ({ctype or 'no content-type'})"
+        except urllib.error.HTTPError as e:
+            return f"{u} -> HTTP {e.code}"
+        except Exception as e:
+            return f"{u} -> {type(e).__name__}: {e}"
+        return None
+
+    # CDN round-trips are ~2s each; serial checking of a full run blows past
+    # any sensible job timeout, so fan them out.
+    with cf.ThreadPoolExecutor(max_workers=8) as pool:
+        return [r for r in pool.map(one, urls) if r]
+
+
 def full_caption(post, platform):
     body = post.get(f"caption_{platform}") or post["caption"]
     tags = post.get("hashtags", "")
@@ -119,8 +146,16 @@ def publish_instagram(post):
         raise RuntimeError(f"carousel needs 2-10 slides, got {len(urls)}")
 
     if DRY:
-        log(f"    DRY: would publish {len(urls)} slides to IG")
+        bad = check_urls(urls)
+        if bad:
+            raise RuntimeError("slides unreachable:\n      " + "\n      ".join(bad))
+        log(f"    DRY: {len(urls)} slides reachable, would publish to IG")
         return "dry-run-ig"
+
+    # Pre-flight. Cheaper to fail here than halfway through building a carousel.
+    bad = check_urls(urls[:1])
+    if bad:
+        raise RuntimeError("first slide unreachable: " + bad[0])
 
     children = []
     for i, u in enumerate(urls, 1):
@@ -148,8 +183,15 @@ def schedule_facebook(post, when_ts):
     urls = slide_urls(post)
 
     if DRY:
-        log(f"    DRY: would schedule {len(urls)} photos to FB for {when_ts}")
+        bad = check_urls(urls)
+        if bad:
+            raise RuntimeError("slides unreachable:\n      " + "\n      ".join(bad))
+        log(f"    DRY: {len(urls)} slides reachable, would schedule to FB")
         return "dry-run-fb"
+
+    bad = check_urls(urls[:1])
+    if bad:
+        raise RuntimeError("first slide unreachable: " + bad[0])
 
     fbids = []
     for i, u in enumerate(urls, 1):
@@ -228,9 +270,11 @@ def main():
                     failures.append(f"{pid} IG: slot missed by {int(age_min)} min")
                     log(f"  {pid}: MISSED by {int(age_min)} min - will not auto-post")
 
-    if changed:
+    if changed and not DRY:
         save(STATE, state)
         log("state.json updated")
+    elif changed:
+        log("DRY: state.json left untouched")
 
     if failures:
         log("\nFAILURES:")
