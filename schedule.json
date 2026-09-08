@@ -62,7 +62,8 @@
         "D004_08.png"
       ],
       "caption": "Four words. No new apps. Audit → Eliminate → Automate → Integrate. Do step 1 tonight — it takes five minutes and it's the first time most people actually see the noise. Save this and send it to the friend who's always 'so behind'.",
-      "hashtags": "#Decoded #TheTranslator #LifeSimplified #TechForRealLife #DigitalDeclutter #SimplifyYourLife #Over40 #Productivity"
+      "hashtags": "#Decoded #TheTranslator #LifeSimplified #TechForRealLife #DigitalDeclutter #SimplifyYourLife #Over40 #Productivity",
+      "hold": "Slot passed on 4 Sep and state.json shows nothing published. Give it a new Slot in Airtable, then clear this hold."
     },
     {
       "id": "D005",
@@ -82,7 +83,8 @@
         "D005_07.png"
       ],
       "caption": "Your first AI prompt, word for word: 'Explain this to me in plain words and tell me exactly what I need to do.' Paste any confusing email or letter above it. That's the whole lesson. You're not behind — nobody showed you.",
-      "hashtags": "#Decoded #TheTranslator #TechForRealLife #AIForBeginners #ChatGPT #Over40 #LifeSimplified #PlainEnglish"
+      "hashtags": "#Decoded #TheTranslator #TechForRealLife #AIForBeginners #ChatGPT #Over40 #LifeSimplified #PlainEnglish",
+      "hold": "Slot passed on 5 Sep and state.json shows nothing published. Give it a new Slot in Airtable, then clear this hold."
     },
     {
       "id": "D002",
@@ -102,7 +104,8 @@
         "D002_07.png"
       ],
       "caption": "Most people aren't stuck because they're broken. They're stuck because nobody ever showed them how simple it actually is. I'm Ian. I'm The Translator. More soon.",
-      "hashtags": "#Decoded #TheTranslator #LifeSimplified #YoureNotBroken #MidlifeReset #Over40 #Resilience"
+      "hashtags": "#Decoded #TheTranslator #LifeSimplified #YoureNotBroken #MidlifeReset #Over40 #Resilience",
+      "hold": "Slot passed on 6 Sep and state.json shows nothing published. Give it a new Slot in Airtable, then clear this hold."
     },
     {
       "id": "D008",
@@ -123,7 +126,8 @@
       ],
       "caption": "How to clean up your Gmail inbox without deleting anything: open one newsletter, tap the three dots, 'Filter messages like this', tick Skip the Inbox, send it to a folder called Later. Five senders tonight. Tomorrow your inbox is just people. Outlook users — 'Rules' does the same thing; comment if you want that version. Save this for tonight.",
       "hashtags": "#Decoded #TheTranslator #TechForRealLife #LifeSimplified #Gmail #EmailTips #Over40 #DigitalDeclutter",
-      "caption_fb": "I'm going to save some of you an hour a day. Your inbox isn't full, it's unsorted — the school email is buried under thirty shops and newsletters. Open one newsletter, tap the three dots, choose 'Filter messages like this', tick 'Skip the Inbox' and send it to a folder called Later. Do it for five senders tonight. Tomorrow morning your inbox is just people. Nothing deleted, nothing lost — it's just quiet. If you're on Outlook say so below and I'll do that version."
+      "caption_fb": "I'm going to save some of you an hour a day. Your inbox isn't full, it's unsorted — the school email is buried under thirty shops and newsletters. Open one newsletter, tap the three dots, choose 'Filter messages like this', tick 'Skip the Inbox' and send it to a folder called Later. Do it for five senders tonight. Tomorrow morning your inbox is just people. Nothing deleted, nothing lost — it's just quiet. If you're on Outlook say so below and I'll do that version.",
+      "hold": "Slot passed on 7 Sep and state.json shows nothing published. Give it a new Slot in Airtable, then clear this hold."
     },
     {
       "id": "D006",
@@ -202,7 +206,7 @@
       ],
       "caption": "How I simplified my life in 90 days (the technologist who was drowning in his own apps). Audit → Eliminate → Automate → Integrate. Forty-one pings down to thirteen. Three tiny automations. No new discipline required. Which one would you start with? Send this to the friend who's 'always behind'.",
       "hashtags": "#Decoded #TheTranslator #LifeSimplified #TechForRealLife #DigitalMinimalism #Over40 #Automation #SimplifyYourLife",
-      "hold": "HONESTY: 41/28/13 are draft placeholders stated as fact in the caption. Replace with real numbers or cut that sentence, then clear this hold."
+      "hold": "HONESTY: 41 / 28 / 13 are draft placeholders stated as fact in the caption. Replace with real numbers or cut that sentence, then clear this hold."
     }
   ]
 }
