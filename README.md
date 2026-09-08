@@ -81,11 +81,21 @@ Yours already is.
    ```
    → `IG_USER_ID`.
 
-### 4. Add the secrets
+### 4. Add the secret
 
 Repo → **Settings → Secrets and variables → Actions → Secrets**:
 
-`META_TOKEN`, `IG_USER_ID`, `FB_PAGE_ID`
+`META_TOKEN` — the **Page** token from step 3.5, not the user token.
+
+That is the only secret needed. The Page id and the linked Instagram id are
+resolved from the token at run time via `me`, so there is nothing to transpose.
+`FB_PAGE_ID` and `IG_USER_ID` are no longer read; if they are still set and
+disagree with the token, the log says so and uses the token's value.
+
+Check the token before relying on it: paste it into the
+[Access Token Debugger](https://developers.facebook.com/tools/debug/accesstoken/).
+**Type** must be `Page` and **Expires** must be `Never`. A User token, or one
+with an expiry date, will work for an hour or two and then fail with code 190.
 
 ### 5. Test before it can touch anything
 

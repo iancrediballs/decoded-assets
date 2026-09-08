@@ -15,9 +15,13 @@ can never go out twice.
 
 Required environment:
   META_TOKEN       long-lived Page access token
-  IG_USER_ID       Instagram Business account id (numeric)
-  FB_PAGE_ID       Facebook Page id (numeric)
   ASSET_BASE_URL   public base for slides, no trailing slash
+
+The Page id and the linked Instagram account id are NOT configured. A Page
+access token already knows which Page it belongs to, so both are resolved from
+`me` at run time. Supplying them by hand was a standing trap: a transposed or
+stale id fails as a generic code-100 "Object with ID does not exist", which
+looks like a permissions problem and is not.
 Optional:
   GRAPH_VERSION    default v23.0 - bump if Meta deprecates it
   DRY_RUN          "1" to log intentions without calling Meta
@@ -35,8 +39,6 @@ STATE = os.path.join(HERE, "state.json")
 GV = os.environ.get("GRAPH_VERSION", "v23.0")
 GRAPH = f"https://graph.facebook.com/{GV}"
 TOKEN = os.environ.get("META_TOKEN", "")
-IG_ID = os.environ.get("IG_USER_ID", "")
-FB_ID = os.environ.get("FB_PAGE_ID", "")
 BASE = os.environ.get("ASSET_BASE_URL", "").rstrip("/")
 DRY = os.environ.get("DRY_RUN") == "1"
 WINDOW = int(os.environ.get("WINDOW_MIN", "90"))
@@ -73,6 +75,40 @@ def api(path, params=None, method="POST"):
         except Exception:
             msg = body[:400]
         raise RuntimeError(f"Graph {method} {path} -> HTTP {e.code}: {msg}") from None
+
+
+_IDS = {}
+
+
+def ids():
+    """Resolve the Page and Instagram ids from the token itself, once per run.
+
+    With a Page access token `me` IS the Page, so this cannot disagree with the
+    token the way a hand-entered id can. Any mismatch between the two was
+    previously invisible until Meta returned a code-100 that named neither.
+    """
+    if _IDS:
+        return _IDS
+
+    me = api("me", {"fields": "id,name"}, method="GET")
+    fb = me["id"]
+    log(f"  page: {me.get('name')} ({fb})")
+
+    r = api(fb, {"fields": "instagram_business_account"}, method="GET")
+    ig = (r.get("instagram_business_account") or {}).get("id", "")
+    log(f"  instagram: {ig}" if ig else
+        "  WARNING: no Instagram account linked to this Page - IG posts will fail")
+
+    # A stale secret left over from the old configured-id design is worth
+    # naming rather than silently ignoring.
+    for var, got in (("FB_PAGE_ID", fb), ("IG_USER_ID", ig)):
+        env = os.environ.get(var, "")
+        if env and env != got:
+            log(f"  note: {var} is set to {env} but the token resolves to {got}"
+                f" - using the token's value and ignoring the secret")
+
+    _IDS.update(fb=fb, ig=ig)
+    return _IDS
 
 
 def load(p, default):
@@ -157,23 +193,27 @@ def publish_instagram(post):
     if bad:
         raise RuntimeError("first slide unreachable: " + bad[0])
 
+    ig_id = ids()["ig"]
+    if not ig_id:
+        raise RuntimeError("no Instagram Business account linked to this Page")
+
     children = []
     for i, u in enumerate(urls, 1):
-        r = api(f"{IG_ID}/media", {"image_url": u, "is_carousel_item": "true"})
+        r = api(f"{ig_id}/media", {"image_url": u, "is_carousel_item": "true"})
         children.append(r["id"])
         log(f"    container {i}/{len(urls)} -> {r['id']}")
 
     for c in children:
         wait_ready(c)
 
-    parent = api(f"{IG_ID}/media", {
+    parent = api(f"{ig_id}/media", {
         "media_type": "CAROUSEL",
         "children": ",".join(children),
         "caption": full_caption(post, "ig"),
     })["id"]
     wait_ready(parent)
 
-    return api(f"{IG_ID}/media_publish", {"creation_id": parent})["id"]
+    return api(f"{ig_id}/media_publish", {"creation_id": parent})["id"]
 
 
 # --------------------------------------------------------------------------
@@ -193,9 +233,11 @@ def schedule_facebook(post, when_ts):
     if bad:
         raise RuntimeError("first slide unreachable: " + bad[0])
 
+    fb_id = ids()["fb"]
+
     fbids = []
     for i, u in enumerate(urls, 1):
-        r = api(f"{FB_ID}/photos", {"url": u, "published": "false"})
+        r = api(f"{fb_id}/photos", {"url": u, "published": "false"})
         fbids.append(r["id"])
         log(f"    photo {i}/{len(urls)} -> {r['id']}")
 
@@ -207,14 +249,13 @@ def schedule_facebook(post, when_ts):
     for i, fid in enumerate(fbids):
         params[f"attached_media[{i}]"] = json.dumps({"media_fbid": fid})
 
-    return api(f"{FB_ID}/feed", params)["id"]
+    return api(f"{fb_id}/feed", params)["id"]
 
 
 # --------------------------------------------------------------------------
 def main():
     missing = [k for k, v in {
-        "META_TOKEN": TOKEN, "IG_USER_ID": IG_ID,
-        "FB_PAGE_ID": FB_ID, "ASSET_BASE_URL": BASE,
+        "META_TOKEN": TOKEN, "ASSET_BASE_URL": BASE,
     }.items() if not v]
     if missing and not DRY:
         log("FATAL: missing env: " + ", ".join(missing))
