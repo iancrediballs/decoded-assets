@@ -146,7 +146,8 @@
         "D006_06.png"
       ],
       "caption": "The attention tax: dozens of tiny interruptions that cost nothing each and everything together. Reactive living versus proactive simplicity. Tonight: which notifications earned the right to interrupt you? Mute the rest. Send this to someone who's 'always busy'.",
-      "hashtags": "#Decoded #TheTranslator #LifeSimplified #Notifications #AttentionEconomy #Over40 #Burnout #SimplifyYourLife"
+      "hashtags": "#Decoded #TheTranslator #LifeSimplified #Notifications #AttentionEconomy #Over40 #Burnout #SimplifyYourLife",
+      "hold": "Slot passed on 8 Sep and state.json shows it was marked missed while the Meta token was broken. Give it a new Slot in Airtable, then clear this hold."
     },
     {
       "id": "D013",
@@ -207,6 +208,71 @@
       "caption": "How I simplified my life in 90 days (the technologist who was drowning in his own apps). Audit → Eliminate → Automate → Integrate. Forty-one pings down to thirteen. Three tiny automations. No new discipline required. Which one would you start with? Send this to the friend who's 'always behind'.",
       "hashtags": "#Decoded #TheTranslator #LifeSimplified #TechForRealLife #DigitalMinimalism #Over40 #Automation #SimplifyYourLife",
       "hold": "HONESTY: 41 / 28 / 13 are draft placeholders stated as fact in the caption. Replace with real numbers or cut that sentence, then clear this hold."
+    },
+    {
+      "id": "D012",
+      "slot_utc": "2026-09-13T10:30:00Z",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "slides_dir": "slides/D012",
+      "slides": [
+        "D012_01.png",
+        "D012_02.png",
+        "D012_03.png",
+        "D012_04.png",
+        "D012_05.png",
+        "D012_06.png",
+        "D012_07.png"
+      ],
+      "caption": "How to stop filing paper and find any document in two seconds using only your phone's camera.\n\nNo new app. No scanner. No system to keep up with. Photograph it, name it, search it.\n\nSave this for the next pile on the kitchen counter.",
+      "hashtags": "#Decoded #TheTranslator #TechForRealLife #LifeSimplified #PaperlessHome #PhoneTips #DeclutterYourLife #MidlifeReset",
+      "caption_fb": "There's a drawer in most houses that everybody's scared of. Receipts, guarantees, school letters, that one form you're sure you kept. I used to have one too.\n\nHere's the whole fix: photograph it. Phone flat over the page, good light, one photo per page. Then swipe up on the photo and type what it is — \"car service June\". That's it. Later you type \"service\" into Photos and it hands it back to you. Your phone can even read the words printed on the page, so it finds things you never even labelled.\n\nYou don't need a filing system. Paper doesn't need a home — it needs a copy. Do one pile tonight and tell me how it went."
+    },
+    {
+      "id": "D011",
+      "slot_utc": "2026-09-14T05:00:00Z",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "slides_dir": "slides/D011",
+      "slides": [
+        "D011_01.png",
+        "D011_02.png",
+        "D011_03.png",
+        "D011_04.png",
+        "D011_05.png",
+        "D011_06.png",
+        "D011_07.png",
+        "D011_08.png"
+      ],
+      "caption": "How to stop missing appointments without buying a planner or downloading another app — one shared calendar, one rule.\n\nFour places to keep a date means no places. Pick one. Say it instead of typing it.\n\nWhich date is only in your head right now?",
+      "hashtags": "#Decoded #TheTranslator #TechForRealLife #LifeSimplified #FamilyOrganisation #CalendarTips #PhoneTips #NoMoreStickyNotes",
+      "caption_fb": "Most households I've sat in run on four systems at once. Sticky notes on the fridge, a diary next to the kettle, dates buried in a school WhatsApp group, and whatever's left in somebody's head. Then everyone's surprised when something gets missed.\n\nIt isn't a memory problem. Four places means no places.\n\nOne rule fixes it: if it has a date, it goes in the calendar. Use the calendar that's already on your phone, call it Home, and share it with whoever else needs to see it. Doctor, school, birthdays, the car licence, the plumber — all of it, no matter how small it feels. And don't type it. Hold the side button and say \"add dentist Tuesday at three to Home\". Twelve seconds, hands still on the wheel.\n\nThe fridge can keep the drawings. Nobody has to carry the dates anymore."
+    },
+    {
+      "id": "D014",
+      "slot_utc": "2026-09-15T17:30:00Z",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "slides_dir": "slides/D014",
+      "slides": [
+        "D014_01.png",
+        "D014_02.png",
+        "D014_03.png",
+        "D014_04.png",
+        "D014_05.png",
+        "D014_06.png",
+        "D014_07.png",
+        "D014_08.png"
+      ],
+      "caption": "Why capable people feel slow and behind — it isn't discipline, it's the hidden admin of modern life.\n\nWe built the tools to save time, then inherited the job of managing them. Infinite tools, finite bandwidth.\n\nOne question tonight: how much of your day goes on using tools, and how much goes on managing them?",
+      "hashtags": "#Decoded #TheTranslator #TechForRealLife #LifeSimplified #DigitalOverwhelm #ModernParadox #AttentionTax #MidlifeReset",
+      "caption_fb": "I want to name something, because I don't think most people have words for it.\n\nThink about what you actually did today. Chased a password. Approved an update you didn't ask for. Hunted for the right app. Cleared notifications. Looked for a document you knew you had. None of that was the work. All of it took the day.\n\nWe built these tools for convenience, and somewhere along the line we inherited a second job managing them — the accounts, the updates, the twelve places one thing could live. Infinite tools, finite bandwidth. That's the Modern Paradox, and it's arithmetic, not a character flaw.\n\nIt's why people who are genuinely good at what they do feel slow. They haven't lost anything. They're just working a shift nobody ever named.\n\nDon't fix anything tonight. Just ask yourself the question: how much of my day goes on using tools, and how much goes on managing them? Sit with the answer. We'll deal with the fix another day."
     }
   ]
 }
