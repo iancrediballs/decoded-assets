@@ -166,7 +166,8 @@
         "D013_06.png"
       ],
       "caption": "Capable but invisible is not the same as behind. Your skill is fine — it just never got translated into the online world. That part's learnable, and it's simpler than anyone told you. Send this to the most underrated person you know.",
-      "hashtags": "#Decoded #TheTranslator #YoureNotBroken #LifeSimplified #Over40 #CareerChange #MidlifeReset #Confidence"
+      "hashtags": "#Decoded #TheTranslator #YoureNotBroken #LifeSimplified #Over40 #CareerChange #MidlifeReset #Confidence",
+      "hold": "Slot passed on 9 Sep. Facebook was handed to Meta on 8 Sep (fb_id present); Instagram missed its window and state.json now records ig_missed. Give it a new Slot in Airtable for Instagram only, then clear this hold — Facebook has already gone out, do not send it twice."
     },
     {
       "id": "D007",
