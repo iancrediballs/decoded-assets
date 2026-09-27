@@ -36,6 +36,9 @@ jobs:
           FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
           ASSET_BASE_URL: ${{ vars.ASSET_BASE_URL }}
           GRAPH_VERSION: ${{ vars.GRAPH_VERSION }}
+          # Scheduled runs actually land every ~2-6h (observed 26-27 Sep), so a
+          # 90-min window misses every IG slot. Override with repo var WINDOW_MIN.
+          WINDOW_MIN: ${{ vars.WINDOW_MIN || 480 }}
           DRY_RUN: ${{ inputs.dry_run && '1' || '' }}
         run: python publish.py
 

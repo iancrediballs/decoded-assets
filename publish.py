@@ -25,7 +25,7 @@ looks like a permissions problem and is not.
 Optional:
   GRAPH_VERSION    default v23.0 - bump if Meta deprecates it
   DRY_RUN          "1" to log intentions without calling Meta
-  WINDOW_MIN       how late a slot may be and still fire (default 90 min)
+  WINDOW_MIN       how late a slot may be and still fire (default 480 min)
 """
 
 import json, os, sys, time, urllib.parse, urllib.request, urllib.error
@@ -41,7 +41,7 @@ GRAPH = f"https://graph.facebook.com/{GV}"
 TOKEN = os.environ.get("META_TOKEN", "")
 BASE = os.environ.get("ASSET_BASE_URL", "").rstrip("/")
 DRY = os.environ.get("DRY_RUN") == "1"
-WINDOW = int(os.environ.get("WINDOW_MIN", "90"))
+WINDOW = int(os.environ.get("WINDOW_MIN") or "480")
 
 # Meta refuses a scheduled_publish_time less than 10 minutes out.
 FB_MIN_LEAD = 15 * 60
