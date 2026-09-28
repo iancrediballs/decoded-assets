@@ -2,6 +2,156 @@
   "timezone_note": "slot_utc is UTC. Decoded posts in SAST = UTC+2.",
   "posts": [
     {
+      "id": "D001",
+      "slot_utc": "2026-09-02T17:30:00Z",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "slides_dir": "slides/D001",
+      "slides": [
+        "D001_01.png",
+        "D001_02.png",
+        "D001_03.png",
+        "D001_04.png",
+        "D001_05.png",
+        "D001_06.png",
+        "D001_07.png"
+      ],
+      "caption": "IG/TT: You're not forgetful. Nobody ever showed you that your phone will carry it for you. Try it ten times today. Save this for the next 'I must remember…'",
+      "hashtags": "#Decoded #TheTranslator #TechForRealLife #LifeSimplified #Over40 #SimplifyYourLife #PhoneTips #Reminders",
+      "caption_fb": "Straight talk: you're not losing your memory. You were never shown that your phone will carry the small stuff for you. Say it out loud — 'remind me tomorrow at 8 to call the school' — and it's handled. Do it ten times today and tell me how your head feels tonight.",
+      "hold": "Slot passed (Wed 2 Sep 19:30 SAST (rolls to Wed 9 Sep 07:00 if unapproved by 17:00)); nothing published on either platform (no state.json entry). Give it a new Slot in Airtable, then clear this hold."
+    },
+    {
+      "id": "D003",
+      "slot_utc": "2026-09-03T10:30:00Z",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "slides_dir": "slides/D003",
+      "slides": [
+        "D003_01.png",
+        "D003_02.png",
+        "D003_03.png",
+        "D003_04.png",
+        "D003_05.png",
+        "D003_06.png"
+      ],
+      "caption": "The Complexity Trap: firehose of data, decision fatigue, always late. The Decoded Life: curated signal, unified automation, clear head. Same person — the small stuff just runs itself now. Which morning is yours? Tell me below.",
+      "hashtags": "#Decoded #TheTranslator #LifeSimplified #TechForRealLife #DecisionFatigue #Automation #Over40 #MorningRoutine",
+      "hold": "Notes: scheduled BY HAND in Meta Business Suite for Thu 3 Sep 12:30 SAST. Held so the cron cannot double-post it. Clear only if Ian confirms the manual post never went out, and give it a new Slot first."
+    },
+    {
+      "id": "D004",
+      "slot_utc": "2026-09-04T05:00:00Z",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "slides_dir": "slides/D004",
+      "slides": [
+        "D004_01.png",
+        "D004_02.png",
+        "D004_03.png",
+        "D004_04.png",
+        "D004_05.png",
+        "D004_06.png",
+        "D004_07.png",
+        "D004_08.png"
+      ],
+      "caption": "Four words. No new apps. Audit → Eliminate → Automate → Integrate. Do step 1 tonight — it takes five minutes and it's the first time most people actually see the noise. Save this and send it to the friend who's always 'so behind'.",
+      "hashtags": "#Decoded #TheTranslator #LifeSimplified #TechForRealLife #DigitalDeclutter #SimplifyYourLife #Over40 #Productivity",
+      "hold": "Slot passed (Fri 4 Sep 07:00 SAST); nothing published on either platform (no state.json entry). Give it a new Slot in Airtable, then clear this hold."
+    },
+    {
+      "id": "D005",
+      "slot_utc": "2026-09-05T10:30:00Z",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "slides_dir": "slides/D005",
+      "slides": [
+        "D005_01.png",
+        "D005_02.png",
+        "D005_03.png",
+        "D005_04.png",
+        "D005_05.png",
+        "D005_06.png",
+        "D005_07.png"
+      ],
+      "caption": "Your first AI prompt, word for word: 'Explain this to me in plain words and tell me exactly what I need to do.' Paste any confusing email or letter above it. That's the whole lesson. You're not behind — nobody showed you.",
+      "hashtags": "#Decoded #TheTranslator #TechForRealLife #AIForBeginners #ChatGPT #Over40 #LifeSimplified #PlainEnglish",
+      "hold": "Slot passed (Sat 5 Sep 12:30 SAST); nothing published on either platform (no state.json entry). Give it a new Slot in Airtable, then clear this hold."
+    },
+    {
+      "id": "D002",
+      "slot_utc": "2026-09-06T17:30:00Z",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "slides_dir": "slides/D002",
+      "slides": [
+        "D002_01.png",
+        "D002_02.png",
+        "D002_03.png",
+        "D002_04.png",
+        "D002_05.png",
+        "D002_06.png",
+        "D002_07.png"
+      ],
+      "caption": "Most people aren't stuck because they're broken. They're stuck because nobody ever showed them how simple it actually is. I'm Ian. I'm The Translator. More soon.",
+      "hashtags": "#Decoded #TheTranslator #LifeSimplified #YoureNotBroken #MidlifeReset #Over40 #Resilience",
+      "caption_fb": "full script as text above the video.",
+      "hold": "Slot passed (Sun 6 Sep 19:30 SAST); nothing published on either platform (no state.json entry). Give it a new Slot in Airtable, then clear this hold."
+    },
+    {
+      "id": "D008",
+      "slot_utc": "2026-09-07T05:00:00Z",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "slides_dir": "slides/D008",
+      "slides": [
+        "D008_01.png",
+        "D008_02.png",
+        "D008_03.png",
+        "D008_04.png",
+        "D008_05.png",
+        "D008_06.png",
+        "D008_07.png"
+      ],
+      "caption": "IG/TT: How to clean up your Gmail inbox without deleting anything: open one newsletter, tap the three dots, 'Filter messages like this', tick Skip the Inbox, send it to a folder called Later. Five senders tonight. Tomorrow your inbox is just people. Outlook users — 'Rules' does the same thing; comment if you want that version. Save this for tonight.",
+      "hashtags": "#Decoded #TheTranslator #TechForRealLife #LifeSimplified #Gmail #EmailTips #Over40 #DigitalDeclutter",
+      "caption_fb": "I'm going to save some of you an hour a day. Your inbox isn't full, it's unsorted — the school email is buried under thirty shops and newsletters. Open one newsletter, tap the three dots, choose 'Filter messages like this', tick 'Skip the Inbox' and send it to a folder called Later. Do it for five senders tonight. Tomorrow morning your inbox is just people. Nothing deleted, nothing lost — it's just quiet. If you're on Outlook say so below and I'll do that version.",
+      "hold": "Slot passed (Mon 7 Sep 07:00 SAST); nothing published on either platform (no state.json entry). Give it a new Slot in Airtable, then clear this hold."
+    },
+    {
+      "id": "D006",
+      "slot_utc": "2026-09-08T10:30:00Z",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "slides_dir": "slides/D006",
+      "slides": [
+        "D006_01.png",
+        "D006_02.png",
+        "D006_03.png",
+        "D006_04.png",
+        "D006_05.png",
+        "D006_06.png"
+      ],
+      "caption": "The attention tax: dozens of tiny interruptions that cost nothing each and everything together. Reactive living versus proactive simplicity. Tonight: which notifications earned the right to interrupt you? Mute the rest. Send this to someone who's 'always busy'.",
+      "hashtags": "#Decoded #TheTranslator #LifeSimplified #Notifications #AttentionEconomy #Over40 #Burnout #SimplifyYourLife",
+      "caption_fb": "full script as text; last line \"Which pings earned it? Tell me one you muted.\"",
+      "hold": "Slot passed Tue 8 Sep. state.json records ig_missed; Facebook was never handed to Meta (no fb_id). Nothing published. Give it a new Slot in Airtable, then clear this hold."
+    },
+    {
       "id": "D013",
       "slot_utc": "2026-09-09T17:30:00Z",
       "platforms": [
@@ -19,7 +169,8 @@
       ],
       "caption": "Capable but invisible is not the same as behind. Your skill is fine — it just never got translated into the online world. That part's learnable, and it's simpler than anyone told you. Send this to the most underrated person you know.",
       "hashtags": "#Decoded #TheTranslator #YoureNotBroken #LifeSimplified #Over40 #CareerChange #MidlifeReset #Confidence",
-      "hold": "Slot passed on 9 Sep. Facebook was handed to Meta on 8 Sep (fb_id present); Instagram missed its window and state.json now records ig_missed. Give it a new Slot in Airtable for Instagram only, then clear this hold — Facebook has already gone out, do not send it twice."
+      "caption_fb": "full script as text; add \"If this is you, say 'that's me' below. I read every one.\"",
+      "hold": "Slot passed Wed 9 Sep. Facebook was handed to Meta on 8 Sep (fb_id in state.json) and has gone out; Instagram missed its window (state.json ig_missed). Give it a new Slot in Airtable for Instagram only, then clear this hold — do not re-send Facebook."
     },
     {
       "id": "D007",
@@ -60,7 +211,8 @@
       ],
       "caption": "How I simplified my life in 90 days (the technologist who was drowning in his own apps). Audit → Eliminate → Automate → Integrate. Forty-one pings down to thirteen. Three tiny automations. No new discipline required. Which one would you start with? Send this to the friend who's 'always behind'.",
       "hashtags": "#Decoded #TheTranslator #LifeSimplified #TechForRealLife #DigitalMinimalism #Over40 #Automation #SimplifyYourLife",
-      "hold": "HONESTY: 41 / 28 / 13 are draft placeholders stated as fact in the caption. Replace with real numbers or cut that sentence, then clear this hold."
+      "caption_fb": "full script as text; auto-shares as Reel.",
+      "hold": "HONESTY: the caption states 41 / 28 / 13 ('forty-one pings down to thirteen') as fact — draft placeholders (Notes). Replace with real numbers or cut that sentence. Slot (12 Sep) has also passed — needs a new Slot. Then clear this hold."
     },
     {
       "id": "D012",
@@ -82,7 +234,7 @@
       "caption": "How to stop filing paper and find any document in two seconds using only your phone's camera.\n\nNo new app. No scanner. No system to keep up with. Photograph it, name it, search it.\n\nSave this for the next pile on the kitchen counter.",
       "hashtags": "#Decoded #TheTranslator #TechForRealLife #LifeSimplified #PaperlessHome #PhoneTips #DeclutterYourLife #MidlifeReset",
       "caption_fb": "There's a drawer in most houses that everybody's scared of. Receipts, guarantees, school letters, that one form you're sure you kept. I used to have one too.\n\nHere's the whole fix: photograph it. Phone flat over the page, good light, one photo per page. Then swipe up on the photo and type what it is — \"car service June\". That's it. Later you type \"service\" into Photos and it hands it back to you. Your phone can even read the words printed on the page, so it finds things you never even labelled.\n\nYou don't need a filing system. Paper doesn't need a home — it needs a copy. Do one pile tonight and tell me how it went.",
-      "hold": "Slot passed 13 Sep. Facebook was handed to Meta on 9 Sep (fb_id present) and has gone out; Instagram missed its 90-min window (state.json ig_missed, 2026-09-22 fetch). Give it a new Slot in Airtable for Instagram only, then clear this hold — do not re-send Facebook."
+      "hold": "Slot passed Sun 13 Sep. Facebook was handed to Meta on 9 Sep (fb_id in state.json) and has gone out; Instagram missed its window (state.json ig_missed). Give it a new Slot in Airtable for Instagram only, then clear this hold — do not re-send Facebook."
     },
     {
       "id": "D011",
@@ -105,7 +257,7 @@
       "caption": "How to stop missing appointments without buying a planner or downloading another app — one shared calendar, one rule.\n\nFour places to keep a date means no places. Pick one. Say it instead of typing it.\n\nWhich date is only in your head right now?",
       "hashtags": "#Decoded #TheTranslator #TechForRealLife #LifeSimplified #FamilyOrganisation #CalendarTips #PhoneTips #NoMoreStickyNotes",
       "caption_fb": "Most households I've sat in run on four systems at once. Sticky notes on the fridge, a diary next to the kettle, dates buried in a school WhatsApp group, and whatever's left in somebody's head. Then everyone's surprised when something gets missed.\n\nIt isn't a memory problem. Four places means no places.\n\nOne rule fixes it: if it has a date, it goes in the calendar. Use the calendar that's already on your phone, call it Home, and share it with whoever else needs to see it. Doctor, school, birthdays, the car licence, the plumber — all of it, no matter how small it feels. And don't type it. Hold the side button and say \"add dentist Tuesday at three to Home\". Twelve seconds, hands still on the wheel.\n\nThe fridge can keep the drawings. Nobody has to carry the dates anymore.",
-      "hold": "Slot passed 14 Sep. Facebook was handed to Meta on 9 Sep (fb_id present) and has gone out; Instagram missed its 90-min window (state.json ig_missed, 2026-09-22 fetch). Give it a new Slot in Airtable for Instagram only, then clear this hold — do not re-send Facebook."
+      "hold": "Slot passed Mon 14 Sep. Facebook was handed to Meta on 9 Sep (fb_id in state.json) and has gone out; Instagram missed its window (state.json ig_missed). Give it a new Slot in Airtable for Instagram only, then clear this hold — do not re-send Facebook."
     },
     {
       "id": "D014",
@@ -128,7 +280,356 @@
       "caption": "Why capable people feel slow and behind — it isn't discipline, it's the hidden admin of modern life.\n\nWe built the tools to save time, then inherited the job of managing them. Infinite tools, finite bandwidth.\n\nOne question tonight: how much of your day goes on using tools, and how much goes on managing them?",
       "hashtags": "#Decoded #TheTranslator #TechForRealLife #LifeSimplified #DigitalOverwhelm #ModernParadox #AttentionTax #MidlifeReset",
       "caption_fb": "I want to name something, because I don't think most people have words for it.\n\nThink about what you actually did today. Chased a password. Approved an update you didn't ask for. Hunted for the right app. Cleared notifications. Looked for a document you knew you had. None of that was the work. All of it took the day.\n\nWe built these tools for convenience, and somewhere along the line we inherited a second job managing them — the accounts, the updates, the twelve places one thing could live. Infinite tools, finite bandwidth. That's the Modern Paradox, and it's arithmetic, not a character flaw.\n\nIt's why people who are genuinely good at what they do feel slow. They haven't lost anything. They're just working a shift nobody ever named.\n\nDon't fix anything tonight. Just ask yourself the question: how much of my day goes on using tools, and how much goes on managing them? Sit with the answer. We'll deal with the fix another day.",
-      "hold": "Slot passed 15 Sep. Facebook was handed to Meta on 9 Sep (fb_id present) and has gone out; Instagram missed its 90-min window (state.json ig_missed, 2026-09-22 fetch). Give it a new Slot in Airtable for Instagram only, then clear this hold — do not re-send Facebook."
+      "hold": "Slot passed Tue 15 Sep. Facebook was handed to Meta on 9 Sep (fb_id in state.json) and has gone out; Instagram missed its window (state.json ig_missed). Give it a new Slot in Airtable for Instagram only, then clear this hold — do not re-send Facebook."
+    },
+    {
+      "id": "D016",
+      "slot_utc": "2026-09-17T05:00:00Z",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "slides_dir": "slides/D016",
+      "slides": [
+        "D016_01.png",
+        "D016_02.png",
+        "D016_03.png",
+        "D016_04.png",
+        "D016_05.png",
+        "D016_06.png",
+        "D016_07.png"
+      ],
+      "caption": "You are not bad at passwords. You have been storing them in the one place never built for it — your head.\n\nYour phone already has a vault. Next time it offers to save one, say yes. Next time it offers to invent one, take it. Then put a proper passcode on the phone itself.\n\nOne strong lock on the front door beats forty weak ones on the windows. Save this for the next \"forgot password\".",
+      "hashtags": "#Decoded #TheTranslator #TechForRealLife #LifeSimplified #PasswordTips #Over40 #PhoneTips #DigitalSafety",
+      "caption_fb": "I want to take something off your shoulders. You are not bad at passwords. Nobody is. The whole system asked you to memorise forty random strings and then blamed you when you could not.\n\nSo stop memorising. Your phone and your browser have had a vault built into them for years — every time one of them asks \"save this password?\" and you tap not now, you are turning down the fix. Say yes instead. And when it offers to invent a long random one for you, take that too. You are never going to type it, so it does not matter that you cannot read it.\n\nThen put your effort where it actually counts: a proper passcode on the phone itself, and your face or your fingerprint. One strong lock on the front door instead of forty weak ones on the windows.\n\nThat is it. That is the whole thing. Tell me below how many places you are currently reusing the same password — no judgement, I promise you are not the worst one here.",
+      "hold": "Slot passed (Thu 17 Sep 07:00 SAST); nothing published on either platform (no state.json entry). Give it a new Slot in Airtable, then clear this hold."
+    },
+    {
+      "id": "D017",
+      "slot_utc": "2026-09-19T10:30:00Z",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "slides_dir": "slides/D017",
+      "slides": [
+        "D017_01.png",
+        "D017_02.png",
+        "D017_03.png",
+        "D017_04.png",
+        "D017_05.png",
+        "D017_06.png",
+        "D017_07.png"
+      ],
+      "caption": "Sunday, eight at night, that feeling. It is not always the job. Sometimes it is just not knowing what is coming.\n\nTen minutes fixes most of it. Everything with a date goes in the calendar. The three things that actually matter get written down. Then you close it.\n\nWhat is on this week that is only in your head right now?",
+      "hashtags": "#Decoded #TheTranslator #LifeSimplified #TechForRealLife #SundayScaries #Over40 #MidlifeReset #Overwhelm",
+      "caption_fb": "There is a specific feeling that arrives around eight on a Sunday night and most people assume it is about work. Sometimes it is. But sit with it a minute and quite often it is not the week itself — it is not knowing what is in the week.\n\nSomething is due and you cannot remember what. Someone needed a form. There is an appointment, possibly Tuesday. So you lie there running the list, and losing the list, and running it again.\n\nThat is not anxiety about your life. That is your head doing a computer's job, badly, at the worst possible hour.\n\nHere is the whole fix and it takes ten minutes. Sunday evening, sit down once. Everything with a date goes into the calendar. The three things that genuinely matter this week get written down somewhere you will see them. Then you close it and you are done.\n\nMonday morning the phone tells you what is coming and you did not have to remember a single bit of it. I did not get calmer. I stopped carrying the week around in my head. Same week, same work — I am just not guessing anymore.\n\nWhat is on this week that is only in your head right now? Put that one in tonight.",
+      "hold": "Slot passed (Sat 19 Sep 12:30 SAST); nothing published on either platform (no state.json entry). Give it a new Slot in Airtable, then clear this hold."
+    },
+    {
+      "id": "D018",
+      "slot_utc": "2026-09-21T17:30:00Z",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "slides_dir": "slides/D018",
+      "slides": [
+        "D018_01.png",
+        "D018_02.png",
+        "D018_03.png",
+        "D018_04.png",
+        "D018_05.png",
+        "D018_06.png",
+        "D018_07.png"
+      ],
+      "caption": "A while back I asked which notifications had earned the right to interrupt you. Here is what to actually do about it.\n\nYour phone has a volume knob for your life and it is called Focus or Do Not Disturb. Give it hours instead of willpower. Let the handful of people through who would ring in a real emergency. Everything else waits.\n\nSilence is a setting, not a personality trait. Which hours should have been quiet all along?",
+      "hashtags": "#Decoded #TheTranslator #TechForRealLife #LifeSimplified #Notifications #DoNotDisturb #Over40 #PhoneTips",
+      "caption_fb": "A while back I asked you which of your notifications had actually earned the right to interrupt you. A few of you told me. Nobody asked me the obvious follow-up, so here it is anyway: what do you do about it?\n\nYou do not need more discipline. You need a schedule, and your phone has had one built in for about a decade. It is called Focus on an iPhone and Do Not Disturb on Android, and it is sitting in Settings right now doing nothing.\n\nThree things. One, find it. Two, give it hours rather than willpower — set it to come on at the same time every evening and go off again in the morning, so you decide once and never think about it again. Three, let the right people through: allow calls from the handful who would genuinely ring you in an emergency, and let everything else wait until morning. Nothing gets deleted. Nothing gets missed. It is just quiet.\n\nSilence is a setting, not a personality trait. Which hours should have been quiet all along in your house?",
+      "hold": "Slot passed Mon 21 Sep; nothing published. ALSO: the caption opens 'A while back I asked which notifications…' — that refers back to D006, which never published on either platform. Rewrite that first line (Notes say so), give it a new Slot, then clear this hold."
+    },
+    {
+      "id": "D019",
+      "slot_utc": "2026-09-23T05:00:00Z",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "slides_dir": "slides/D019",
+      "slides": [
+        "D019_01.png",
+        "D019_02.png",
+        "D019_03.png",
+        "D019_04.png",
+        "D019_05.png",
+        "D019_06.png",
+        "D019_07.png"
+      ],
+      "caption": "How to find any photo, message or document on your phone in seconds — using the search bar you already have.\n\nEvery app has one at the top. Type an ordinary word, not a file name. And search inside the conversation, not just the app.\n\nSave this for the next long scroll.",
+      "hashtags": "#Decoded #TheTranslator #TechForRealLife #LifeSimplified #PhoneTips #DigitalDeclutter #Over40 #SimplifyYourLife",
+      "caption_fb": "Watch someone look for something on their phone and you'll see the same thing every time. Thumb going, screen blurring past, that little sigh. Five minutes gone and they give up and ask the person to send it again.\n\nIt isn't a memory problem. Nobody ever showed you that the search bar at the top of the screen is the point of the whole app.\n\nThree things and you'll never scroll like that again. First, start at the top — Photos, WhatsApp, your email, your files, they all have a search bar sitting there doing nothing. Second, type the thing rather than the name. You don't need to remember what you called it; type plumber, or invoice, or school, and it will find it. Third, search inside the conversation itself — open the chat, tap its search, type one word, and the address somebody sent you back in June comes straight back to you.\n\nYou don't have a memory problem. You have a scrolling habit, and it was never your fault. Try it tonight on the one thing you've been meaning to find, and tell me if it turned up.",
+      "hold": "Slot passed (Wed 23 Sep 07:00 SAST); nothing published on either platform (no state.json entry). Give it a new Slot in Airtable, then clear this hold."
+    },
+    {
+      "id": "D021",
+      "slot_utc": "2026-09-25T10:30:00Z",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "slides_dir": "slides/D021",
+      "slides": [
+        "D021_01.png",
+        "D021_02.png",
+        "D021_03.png",
+        "D021_04.png",
+        "D021_05.png",
+        "D021_06.png",
+        "D021_07.png"
+      ],
+      "caption": "How to answer long messages and emails on your phone without typing them — using the microphone already on your keyboard.\n\nTap it. Talk the way you talk. Say full stop and new line where you want them, then tidy it up.\n\nSend this to someone who hates typing.",
+      "hashtags": "#Decoded #TheTranslator #TechForRealLife #LifeSimplified #PhoneTips #VoiceToText #Over40 #SimplifyYourLife",
+      "caption_fb": "There's a message sitting in your phone right now that you've opened and closed about six times. Not because it's difficult. Because answering it properly means twenty minutes of two thumbs on a piece of glass, and you never have twenty minutes.\n\nSo here's the bit nobody showed you. Open any keyboard on your phone and look at it properly. There's a small microphone on there. Tap it and just talk.\n\nTalk the way you'd talk to the person in front of you. Say full stop and new line where you want them and it puts them in. It won't be perfect — it doesn't need to be. You read it once, fix the two words it got wrong, and send. What took twenty minutes takes ninety seconds.\n\nUse it where it actually hurts: the long email, the message you keep avoiding, the note you'd never have sat down and written. I use it for almost everything now and my thumbs have not missed it once.\n\nYou were never slow at this. You were doing it the hardest possible way because that's the only way you were ever shown. Try it on one message today.",
+      "hold": "Slot passed (Fri 25 Sep 12:30 SAST); nothing published on either platform (no state.json entry). Give it a new Slot in Airtable, then clear this hold."
+    },
+    {
+      "id": "D022",
+      "slot_utc": "2026-09-27T17:30:00Z",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "slides_dir": "slides/D022",
+      "slides": [
+        "D022_01.png",
+        "D022_02.png",
+        "D022_03.png",
+        "D022_04.png",
+        "D022_05.png",
+        "D022_06.png",
+        "D022_07.png"
+      ],
+      "caption": "Why capable people over 40 nod along instead of asking what something means — and why the nodding costs more than the question.\n\nThe ones who ask early are never the ones who are behind. They're the ones who stopped pretending.\n\nWhat have you been nodding along about? Say it below.",
+      "hashtags": "#Decoded #TheTranslator #YoureNotBroken #LifeSimplified #Over40 #MidlifeReset #Confidence #NobodyShowedYou",
+      "caption_fb": "I taught for years, and there's a thing I noticed early that never stopped being true. The students who put a hand up in the first ten minutes were never the ones who were struggling. They were the ones who'd decided, quite deliberately, that they weren't going to sit there pretending for an hour.\n\nThe ones who were actually in trouble were the quiet ones. Nodding. Taking notes they couldn't use. Waiting for the bit that would suddenly make sense on its own, which it never does.\n\nI think about that a lot now, because I meet the grown-up version of it constantly. Capable people, good at their jobs, with one word that comes up in every meeting that they've never looked up. Or a bit of the phone they've never touched. Or a thing their kids do in two seconds that they've quietly given up on. And the nodding has been going on so long that asking now feels like admitting to years of it.\n\nIt isn't that. You're not slow, and you're not behind. Nobody gets shown a thing twice, and you happened to be busy the first time — usually busy holding something else together.\n\nComplexity is just simplicity that hasn't been explained properly yet. That's on whoever explained it, not on you.\n\nSo: what's the thing you've been nodding along about? Say it below. Nobody here is scoring you, and I'd put money on you not being the only one.",
+      "hold": "Slot passed (Sun 27 Sep 19:30 SAST); nothing published on either platform (no state.json entry). Give it a new Slot in Airtable, then clear this hold."
+    },
+    {
+      "id": "D020",
+      "slot_utc": "2026-09-29T05:00:00Z",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "slides_dir": "slides/D020",
+      "slides": [
+        "D020_01.png",
+        "D020_02.png",
+        "D020_03.png",
+        "D020_04.png",
+        "D020_05.png",
+        "D020_06.png",
+        "D020_07.png",
+        "D020_08.png"
+      ],
+      "caption": "How to make sure a lost or stolen phone doesn't take your photos, contacts and accounts with it — three settings, one evening, no app to buy.\n\nBackup on. Find my device on. Recovery email and number current. That's the whole job.\n\nSave this for the next phone in the family.",
+      "hashtags": "#Decoded #TheTranslator #TechForRealLife #LifeSimplified #PhoneBackup #FindMyPhone #DigitalSafety #Over40",
+      "caption_fb": "Here's a thing I check on every phone I get handed, and almost nobody has done it.\n\nMost of us carry our whole life on one device — the photos, the contacts, the banking, the messages from people who aren't here anymore — and we've never once checked what happens if it's stolen, dropped, or just dies on a Tuesday. Not because we're careless. Because nobody ever showed us the three switches.\n\nOne: open Settings and search the word backup. Switch it on, and check it says it ran recently. Now your photos, contacts and messages live somewhere that isn't the phone.\n\nTwo: search find. Switch on find my device. If the phone goes missing you can see where it is, lock it, or wipe it from any computer.\n\nThree: in your Google or Apple account, look at the recovery email and phone number. If it's still an old work address or a number you don't have anymore, change it now. That's the door back into everything when you need it.\n\nThat's it. No app to buy, no system to maintain, no monthly fee. One evening, three switches, and the small stuff can't take you down anymore.\n\nDo it tonight, and then do it on your mum's phone this weekend."
+    },
+    {
+      "id": "D023",
+      "slot_utc": "2026-10-01T10:30:00Z",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "slides_dir": "slides/D023",
+      "slides": [
+        "D023_01.png",
+        "D023_02.png",
+        "D023_03.png",
+        "D023_04.png",
+        "D023_05.png",
+        "D023_06.png",
+        "D023_07.png",
+        "D023_08.png"
+      ],
+      "caption": "Why every app turning into an everything app makes life more complicated, not less — and why the reconciling quietly moved to you.\n\nThe tools didn't get simpler. The same thing now lives in twelve places, and you're the one holding them together.\n\nOne question tonight: which of your apps do you actually trust, and how many of the rest are echoes? Don't fix it. Just count.",
+      "hashtags": "#Decoded #TheTranslator #TechForRealLife #LifeSimplified #DigitalOverwhelm #ModernParadox #AttentionTax #AppFatigue",
+      "caption_fb": "I want to point at something that's been happening quietly for a few years, because I think most people feel it and can't name it.\n\nYour bank app has a chat now. Your chat app takes payments. Your notes app grew a calendar. Your calendar grew notes. Every app decided it needed to be the one app you live in, and none of them won, so now everything does everything and the same thing lives in twelve places.\n\nNobody chose this. Each app added the feature because the other one did. And every time, the job of knowing which copy is the real one — which address is current, whether you already replied on the other one, where you put the thing — landed quietly on the person holding the phone. The tools didn't get simpler. The reconciling moved to you.\n\nThat's the tax on attention. It isn't the big decisions that wear you down. It's the hundred tiny ones a day about where a thing lives.\n\nI'm not going to fix it in this post. Just one question for tonight: which of your apps do you actually trust, and how many of the rest are echoes? Count them. We'll deal with the fix another day."
+    },
+    {
+      "id": "D024",
+      "slot_utc": "2026-10-03T17:30:00Z",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "slides_dir": "slides/D024",
+      "slides": [
+        "D024_01.png",
+        "D024_02.png",
+        "D024_03.png",
+        "D024_04.png",
+        "D024_05.png",
+        "D024_06.png",
+        "D024_07.png",
+        "D024_08.png"
+      ],
+      "caption": "How to fix 'storage almost full' on your phone in ten minutes without buying a bigger one or downloading a cleaner app.\n\nThree places hold the weight: your photos app's own free-up tool, WhatsApp's storage screen, and the storage list in Settings. Deal with those and you're done for the year.\n\nSave this for the next time the warning pops up.",
+      "hashtags": "#Decoded #TheTranslator #TechForRealLife #LifeSimplified #PhoneTips #StorageFull #DigitalDeclutter #Over40",
+      "caption_fb": "There's a moment most of us know. The phone flashes 'storage almost full', and the only fix anyone ever mentions is a bigger phone or a monthly cloud plan. I've watched capable people pay for both because nobody showed them where the weight actually is.\n\nIt's in three places. Your photos app has its own free-up tool that clears what's already safely backed up, along with duplicates and blurry shots. WhatsApp has a storage screen that lists the biggest files and which chats are holding them; the forwarded videos from years ago go, the messages stay. And Settings has a storage list, biggest first, where one or two apps or old downloads are usually the whole problem.\n\nTen minutes. No new app. No new phone. Do it while the kettle boils and tell me how much you got back."
+    },
+    {
+      "id": "D027",
+      "slot_utc": "2026-10-05T05:00:00Z",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "slides_dir": "slides/D027",
+      "slides": [
+        "D027_01.png",
+        "D027_02.png",
+        "D027_03.png",
+        "D027_04.png",
+        "D027_05.png",
+        "D027_06.png",
+        "D027_07.png",
+        "D027_08.png"
+      ],
+      "caption": "What a weekday morning looks like before and after you automate the small stuff on your phone: same alarm, same kids, a completely different 7am.\n\nQuiet mode that runs itself. One shared calendar. Reminders tied to a place, not a time. None of it took longer than a cup of tea.\n\nWhich 7am are you having? Save this and set up one of the three tonight.",
+      "hashtags": "#Decoded #TheTranslator #TechForRealLife #LifeSimplified #MorningRoutine #DigitalOverwhelm #Automation #Over40",
+      "caption_fb": "I want to show you two mornings, because the difference between them is not discipline.\n\nMorning one. Alarm. Phone. Forty notifications from overnight, and before your feet touch the floor you've read a work message you can't do anything about and replied to a group chat that didn't need you. Eight minutes gone. Somewhere in the traffic you remember the school form. You arrive at your desk already behind, and the day hasn't started.\n\nMorning two. Same alarm, same kids, same traffic. But the phone is quiet until eight, because a quiet mode switched itself on at bedtime. The screen shows one thing: today's calendar, with everything already in it, because every date in the house goes to one shared calendar. The school form? It's a reminder tied to the school car park; it fires when you get there, not before. Coffee. Then the phone.\n\nThree small automations. None took longer than a cup of tea to set up. That's the whole 90-day idea I talk about: not a new you, not more willpower. The small stuff running in the background so your head is yours before the first coffee. Which 7am are you having tomorrow?"
+    },
+    {
+      "id": "D025",
+      "slot_utc": "2026-10-07T10:30:00Z",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "slides_dir": "slides/D025",
+      "slides": [
+        "D025_01.png",
+        "D025_02.png",
+        "D025_03.png",
+        "D025_04.png",
+        "D025_05.png",
+        "D025_06.png",
+        "D025_07.png",
+        "D025_08.png"
+      ],
+      "caption": "How to spot a scam text in three seconds without becoming a security expert — one rule, one check, one switch.\n\nUrgency plus a link means close it. If you're curious, open the real app yourself, never their link. Then switch on the spam filter your phone already has.\n\nSave this for the next 'is this real?' message.",
+      "hashtags": "#Decoded #TheTranslator #TechForRealLife #LifeSimplified #ScamTexts #PhoneTips #StaySafeOnline #Over40",
+      "caption_fb": "I get sent a lot of worried screenshots. A parcel that's 'held'. An account that's 'locked'. A payment 'due by midnight'. The people sending them to me are not naive. They're careful, which is exactly why the message worked on them for a second: it's built to make careful people hurry.\n\nSo here's the whole thing, calmly. Nobody real needs you to click right now. Urgency plus a link means close it. Don't tap it, don't reply, don't argue with it. If you're curious whether there's actually a problem, go to the real app or type the website in yourself — never through their link. If something's genuinely wrong, it'll be sitting there waiting for you. And once, tonight, open Settings, search spam, and switch on the filter that's already built into your phone and your network. It quietly flags the likely ones so you see fewer of them.\n\nThat's it. No course, no software, no fear. Hurry is the tell. Calm is the defence. Send this to the person who sends you the screenshots."
+    },
+    {
+      "id": "D026",
+      "slot_utc": "2026-10-12T05:00:00Z",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "slides_dir": "slides/D026",
+      "slides": [
+        "D026_01.png",
+        "D026_02.png",
+        "D026_03.png",
+        "D026_04.png",
+        "D026_05.png",
+        "D026_06.png",
+        "D026_07.png",
+        "D026_08.png"
+      ],
+      "caption": "How to get through your read-later pile without reading — your phone will read articles, emails and documents out loud, and the button is already there.\n\nSettings, search 'spoken content' or 'read aloud', switch it on. Open anything with words. Earphones in, screen off.\n\nSave this for the next thing you'd have saved 'for later'.",
+      "hashtags": "#Decoded #TheTranslator #TechForRealLife #LifeSimplified #PhoneTips #ReadAloud #Accessibility #Over40",
+      "caption_fb": "There's a pile most of us carry around. The article a friend sent. The long email from the school. The document you were definitely going to read this weekend. It sits there, and every time you see it there's a small sting — I should have got to that.\n\nYou didn't fail to read it. Reading needs a screen, a chair and ten quiet minutes, and most days don't have those. Listening needs nothing.\n\nYour phone has had this built in for years. Open Settings, search 'spoken content' or 'read aloud' — it's usually under accessibility — and switch it on once. Then open the article or email, select the text or tap the read-aloud control, and it starts talking. Earphones in, phone in your pocket, screen off. The school run, the dishes, the drive home. The backlog gets listened to instead of carried.\n\nIt's the other half of talking instead of typing. In: you speak, it writes. Out: it reads, you listen. The screen was never the point.\n\nTry it on the next thing you'd have saved for later, and tell me what you finally got through."
+    },
+    {
+      "id": "D029",
+      "slot_utc": "2026-10-14T17:30:00Z",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "slides_dir": "slides/D029",
+      "slides": [
+        "D029_01.png",
+        "D029_02.png",
+        "D029_03.png",
+        "D029_04.png",
+        "D029_05.png",
+        "D029_06.png",
+        "D029_07.png"
+      ],
+      "caption": "Why going digital or changing direction after 40 isn't starting over — you're starting from experience, and the tech is the easy part.\n\nThe apps change every eighteen months. Your judgement took twenty years. That's the part nobody can download.\n\nWhich twenty years are you carrying? Tell me below.",
+      "hashtags": "#Decoded #TheTranslator #YoureNotBroken #LifeSimplified #Over40 #CareerChange #MidlifeReset #NobodyShowedYou",
+      "caption_fb": "There's a sentence I hear from capable people all the time, usually said quietly: \"I feel like I'm starting from zero.\" Forty-something, good at their job for two decades, and then the job moved online, or the industry did, and suddenly it feels like day one.\n\nI want to take that sentence apart, because it's wrong in a way that costs people years.\n\nYou're measuring yourself against the tools. Nobody hired you for the tools. They hired you for the judgement that tells the tools what to do — knowing when a client is about to walk, which quote is too cheap to be real, what a room needs before anyone's said it. That took twenty years. The apps change every eighteen months. Guess which one is harder to replace.\n\nI taught myself the technology side of my own work. Not because I'm special — because somebody eventually explained it in plain words, and it turned out to be simpler than the fear. I've never met anyone who was behind. I've met plenty who were never shown.\n\nThe tech is the easy part. You already did the hard part.\n\nSo — which twenty years are you carrying? Tell me below. And send this to the person who keeps saying it's too late."
+    },
+    {
+      "id": "D030",
+      "slot_utc": "2026-10-17T10:30:00Z",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "slides_dir": "slides/D030",
+      "slides": [
+        "D030_01.png",
+        "D030_02.png",
+        "D030_03.png",
+        "D030_04.png",
+        "D030_05.png",
+        "D030_06.png",
+        "D030_07.png",
+        "D030_08.png"
+      ],
+      "caption": "How to make your phone readable again in two minutes — bigger text, bold type, dark mode at sunset. No new phone, no new glasses.\n\nPhones ship with small thin text because it looks good in the shop, not because it's good for you. Nobody showed you the dial.\n\nSave this for the next \"I can't read that\".",
+      "hashtags": "#Decoded #TheTranslator #TechForRealLife #LifeSimplified #PhoneTips #Over40 #Accessibility #SimplifyYourLife",
+      "caption_fb": "Something I see constantly: a capable adult holding their phone at arm's length, squinting, then handing it to someone younger to read. And feeling a little bit ashamed about it.\n\nThere's nothing to be ashamed of. Phones come out of the box set up for the eyes that buy them in the shop — small text, thin grey type, a screen that glows like a torch at eleven at night. Nobody ever showed you the dial.\n\nHere's the whole fix, two minutes. Open Settings and search \"text size\". Drag the slider up until a message from your kid is readable without the arm-stretch. Same place, switch on \"bold text\" — thin grey letters on white are the real enemy, not your eyes. Then search \"dark mode\" and set it to come on by itself at sunset, so the screen stops shouting at you in bed.\n\nSame phone. Different phone.\n\nDo it on your own tonight, then do it on your parents' phone this weekend and watch their face. Save this for the next \"I can't read that\"."
+    },
+    {
+      "id": "D032",
+      "slot_utc": "2026-10-19T05:00:00Z",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "slides_dir": "slides/D032",
+      "slides": [
+        "D032_01.png",
+        "D032_02.png",
+        "D032_03.png",
+        "D032_04.png",
+        "D032_05.png",
+        "D032_06.png",
+        "D032_07.png"
+      ],
+      "caption": "How to stop your phone asking you about updates: switch on automatic updates once and let them install overnight.\n\nTwo switches — phone updates and app updates. Then plug in at night and forget about it.\n\nSave this and do it before bed.",
+      "hashtags": "#Decoded #TheTranslator #TechForRealLife #LifeSimplified #PhoneTips #AutomateTheSmallStuff #SimplifyYourLife",
+      "caption_fb": "There's a little question most of us answer every week without thinking. \"Update available.\" Later. Remind me tomorrow. Not now, I'm busy.\n\nIt's not a big thing. That's the point. It's one of a hundred small decisions your phone hands you every week, and every one of them costs a bit of headspace.\n\nHere's the whole fix. Open Settings and search \"software update\" — switch on automatic updates. Then open your app store's settings and switch on automatic app updates, Wi-Fi only so it doesn't chew your data. From then on, just leave the phone charging on Wi-Fi at night. It does the work while you sleep, and you wake up to it done.\n\nNo app to buy. Nothing to remember. One less question every day — that's all \"automate\" really means. Do it tonight before you plug in."
+    },
+    {
+      "id": "D031",
+      "slot_utc": "2026-10-21T17:30:00Z",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "slides_dir": "slides/D031",
+      "slides": [
+        "D031_01.png",
+        "D031_02.png",
+        "D031_03.png",
+        "D031_04.png",
+        "D031_05.png",
+        "D031_06.png",
+        "D031_07.png"
+      ],
+      "caption": "Being \"good with technology\" isn't a personality trait. It's how recently somebody showed you properly.\n\nCurrent is a skill, not an age.\n\nWhen were you last shown something properly? Tell me below.",
+      "hashtags": "#Decoded #TheTranslator #TechForRealLife #LifeSimplified #NotATechPerson #MidlifeReset #Over40 #ModernParadox",
+      "caption_fb": "I want to take apart a sentence I hear all the time: \"I'm just not a tech person.\"\n\nWe say it like it's a blood type. Some people are good with technology, some people aren't, and that's that. And the evidence always seems to back it up — there's always a youngster in the house who sorts out the phone in a moment while you're still looking for the settings.\n\nBut that youngster isn't smarter than you. They were shown recently. That's the whole difference. You were shown too, once — and then the world moved on and nobody came back to show you the next bit.\n\nSo \"good with technology\" isn't a trait. It's a date. It's the last time someone sat next to you and explained it properly, slowly, in plain words, without making you feel stupid for asking.\n\nCurrent is a skill, not an age. Skills can be picked up again.\n\nNo fix tonight. Just one question to sit with: when were you last shown something properly? I'd genuinely like to know — tell me in the comments."
     }
   ]
 }
