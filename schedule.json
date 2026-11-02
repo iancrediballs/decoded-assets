@@ -481,7 +481,7 @@
       "caption": "How to fix 'storage almost full' on your phone in ten minutes without buying a bigger one or downloading a cleaner app.\n\nThree places hold the weight: your photos app's own free-up tool, WhatsApp's storage screen, and the storage list in Settings. Deal with those and you're done for the year.\n\nSave this for the next time the warning pops up.",
       "hashtags": "#Decoded #TheTranslator #TechForRealLife #LifeSimplified #PhoneTips #StorageFull #DigitalDeclutter #Over40",
       "caption_fb": "There's a moment most of us know. The phone flashes 'storage almost full', and the only fix anyone ever mentions is a bigger phone or a monthly cloud plan. I've watched capable people pay for both because nobody showed them where the weight actually is.\n\nIt's in three places. Your photos app has its own free-up tool that clears what's already safely backed up, along with duplicates and blurry shots. WhatsApp has a storage screen that lists the biggest files and which chats are holding them; the forwarded videos from years ago go, the messages stay. And Settings has a storage list, biggest first, where one or two apps or old downloads are usually the whole problem.\n\nTen minutes. No new app. No new phone. Do it while the kettle boils and tell me how much you got back.",
-      "hold": "Slot passed (Sat 3 Oct 19:30 SAST); commits b199818 + 405a469 were never pushed, so nothing published on either platform (no state.json entry). Give it a new Slot in Airtable, then clear this hold."
+      "hold": "CORRECTION 16 Oct: origin state.json shows this post DID publish - Facebook handed to Meta 1 Oct, Instagram published 2026-10-03 (Instagram id 18106991747185235). The earlier 'nothing published' reason was written from stale local state. Hold left in place for Ian to drop; state.json blocks any re-post regardless."
     },
     {
       "id": "D027",
@@ -504,7 +504,7 @@
       "caption": "What a weekday morning looks like before and after you automate the small stuff on your phone: same alarm, same kids, a completely different 7am.\n\nQuiet mode that runs itself. One shared calendar. Reminders tied to a place, not a time. None of it took longer than a cup of tea.\n\nWhich 7am are you having? Save this and set up one of the three tonight.",
       "hashtags": "#Decoded #TheTranslator #TechForRealLife #LifeSimplified #MorningRoutine #DigitalOverwhelm #Automation #Over40",
       "caption_fb": "I want to show you two mornings, because the difference between them is not discipline.\n\nMorning one. Alarm. Phone. Forty notifications from overnight, and before your feet touch the floor you've read a work message you can't do anything about and replied to a group chat that didn't need you. Eight minutes gone. Somewhere in the traffic you remember the school form. You arrive at your desk already behind, and the day hasn't started.\n\nMorning two. Same alarm, same kids, same traffic. But the phone is quiet until eight, because a quiet mode switched itself on at bedtime. The screen shows one thing: today's calendar, with everything already in it, because every date in the house goes to one shared calendar. The school form? It's a reminder tied to the school car park; it fires when you get there, not before. Coffee. Then the phone.\n\nThree small automations. None took longer than a cup of tea to set up. That's the whole 90-day idea I talk about: not a new you, not more willpower. The small stuff running in the background so your head is yours before the first coffee. Which 7am are you having tomorrow?",
-      "hold": "Slot passed (Mon 5 Oct 07:00 SAST); commits b199818 + 405a469 were never pushed, so nothing published on either platform (no state.json entry). Give it a new Slot in Airtable, then clear this hold."
+      "hold": "CORRECTION 16 Oct: origin state.json shows this post DID publish - Facebook handed to Meta 1 Oct, Instagram published 2026-10-05 (Instagram id 18037986248839803). The earlier 'nothing published' reason was written from stale local state. Hold left in place for Ian to drop; state.json blocks any re-post regardless."
     },
     {
       "id": "D025",
@@ -526,7 +526,8 @@
       ],
       "caption": "How to spot a scam text in three seconds without becoming a security expert — one rule, one check, one switch.\n\nUrgency plus a link means close it. If you're curious, open the real app yourself, never their link. Then switch on the spam filter your phone already has.\n\nSave this for the next 'is this real?' message.",
       "hashtags": "#Decoded #TheTranslator #TechForRealLife #LifeSimplified #ScamTexts #PhoneTips #StaySafeOnline #Over40",
-      "caption_fb": "I get sent a lot of worried screenshots. A parcel that's 'held'. An account that's 'locked'. A payment 'due by midnight'. The people sending them to me are not naive. They're careful, which is exactly why the message worked on them for a second: it's built to make careful people hurry.\n\nSo here's the whole thing, calmly. Nobody real needs you to click right now. Urgency plus a link means close it. Don't tap it, don't reply, don't argue with it. If you're curious whether there's actually a problem, go to the real app or type the website in yourself — never through their link. If something's genuinely wrong, it'll be sitting there waiting for you. And once, tonight, open Settings, search spam, and switch on the filter that's already built into your phone and your network. It quietly flags the likely ones so you see fewer of them.\n\nThat's it. No course, no software, no fear. Hurry is the tell. Calm is the defence. Send this to the person who sends you the screenshots."
+      "caption_fb": "I get sent a lot of worried screenshots. A parcel that's 'held'. An account that's 'locked'. A payment 'due by midnight'. The people sending them to me are not naive. They're careful, which is exactly why the message worked on them for a second: it's built to make careful people hurry.\n\nSo here's the whole thing, calmly. Nobody real needs you to click right now. Urgency plus a link means close it. Don't tap it, don't reply, don't argue with it. If you're curious whether there's actually a problem, go to the real app or type the website in yourself — never through their link. If something's genuinely wrong, it'll be sitting there waiting for you. And once, tonight, open Settings, search spam, and switch on the filter that's already built into your phone and your network. It quietly flags the likely ones so you see fewer of them.\n\nThat's it. No course, no software, no fear. Hurry is the tell. Calm is the defence. Send this to the person who sends you the screenshots.",
+      "hold": "CORRECTION 16 Oct: origin state.json shows this post DID publish - Facebook handed to Meta 1 Oct, Instagram published 2026-10-07 (Instagram id 17907106377590635). The earlier 'nothing published' reason was written from stale local state. Hold left in place for Ian to drop; state.json blocks any re-post regardless."
     },
     {
       "id": "D026",
@@ -548,7 +549,8 @@
       ],
       "caption": "How to get through your read-later pile without reading — your phone will read articles, emails and documents out loud, and the button is already there.\n\nSettings, search 'spoken content' or 'read aloud', switch it on. Open anything with words. Earphones in, screen off.\n\nSave this for the next thing you'd have saved 'for later'.",
       "hashtags": "#Decoded #TheTranslator #TechForRealLife #LifeSimplified #PhoneTips #ReadAloud #Accessibility #Over40",
-      "caption_fb": "There's a pile most of us carry around. The article a friend sent. The long email from the school. The document you were definitely going to read this weekend. It sits there, and every time you see it there's a small sting — I should have got to that.\n\nYou didn't fail to read it. Reading needs a screen, a chair and ten quiet minutes, and most days don't have those. Listening needs nothing.\n\nYour phone has had this built in for years. Open Settings, search 'spoken content' or 'read aloud' — it's usually under accessibility — and switch it on once. Then open the article or email, select the text or tap the read-aloud control, and it starts talking. Earphones in, phone in your pocket, screen off. The school run, the dishes, the drive home. The backlog gets listened to instead of carried.\n\nIt's the other half of talking instead of typing. In: you speak, it writes. Out: it reads, you listen. The screen was never the point.\n\nTry it on the next thing you'd have saved for later, and tell me what you finally got through."
+      "caption_fb": "There's a pile most of us carry around. The article a friend sent. The long email from the school. The document you were definitely going to read this weekend. It sits there, and every time you see it there's a small sting — I should have got to that.\n\nYou didn't fail to read it. Reading needs a screen, a chair and ten quiet minutes, and most days don't have those. Listening needs nothing.\n\nYour phone has had this built in for years. Open Settings, search 'spoken content' or 'read aloud' — it's usually under accessibility — and switch it on once. Then open the article or email, select the text or tap the read-aloud control, and it starts talking. Earphones in, phone in your pocket, screen off. The school run, the dishes, the drive home. The backlog gets listened to instead of carried.\n\nIt's the other half of talking instead of typing. In: you speak, it writes. Out: it reads, you listen. The screen was never the point.\n\nTry it on the next thing you'd have saved for later, and tell me what you finally got through.",
+      "hold": "CORRECTION 16 Oct: origin state.json shows this post DID publish - Facebook handed to Meta 1 Oct, Instagram published 2026-10-12 (Instagram id 17960726327996763). The earlier 'nothing published' reason was written from stale local state. Hold left in place for Ian to drop; state.json blocks any re-post regardless."
     },
     {
       "id": "D029",
@@ -634,6 +636,452 @@
       "caption": "Being \"good with technology\" isn't a personality trait. It's how recently somebody showed you properly.\n\nCurrent is a skill, not an age.\n\nWhen were you last shown something properly? Tell me below.",
       "hashtags": "#Decoded #TheTranslator #TechForRealLife #LifeSimplified #NotATechPerson #MidlifeReset #Over40 #ModernParadox",
       "caption_fb": "I want to take apart a sentence I hear all the time: \"I'm just not a tech person.\"\n\nWe say it like it's a blood type. Some people are good with technology, some people aren't, and that's that. And the evidence always seems to back it up — there's always a youngster in the house who sorts out the phone in a moment while you're still looking for the settings.\n\nBut that youngster isn't smarter than you. They were shown recently. That's the whole difference. You were shown too, once — and then the world moved on and nobody came back to show you the next bit.\n\nSo \"good with technology\" isn't a trait. It's a date. It's the last time someone sat next to you and explained it properly, slowly, in plain words, without making you feel stupid for asking.\n\nCurrent is a skill, not an age. Skills can be picked up again.\n\nNo fix tonight. Just one question to sit with: when were you last shown something properly? I'd genuinely like to know — tell me in the comments."
+    },
+    {
+      "id": "D035",
+      "slot_utc": "2026-10-23T17:30:00Z",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "slides_dir": "slides/D035",
+      "slides": [
+        "D035_01.png",
+        "D035_02.png",
+        "D035_03.png",
+        "D035_04.png",
+        "D035_05.png",
+        "D035_06.png",
+        "D035_07.png"
+      ],
+      "caption": "Why being a beginner after 40 feels so exposing - and why it isn't a sign you're behind.\n\nBeginner is a place you stand, not a thing you are. You've stood there before, and you got through it.\n\nWhat would you start tomorrow if nobody was watching? Tell me below.",
+      "hashtags": "#Decoded #TheTranslator #YoureNotBroken #LifeSimplified #Over40 #NeverTooLate #MidlifeReset #NobodyShowedYou",
+      "caption_fb": "I want to talk to the person who hasn't started the thing yet because they're embarrassed to be bad at it.\n\nMaybe it's the course. The website for the side business. Learning how the new system at work actually works instead of nodding along. Whatever it is, you know exactly what I mean, because it's been sitting there for a while.\n\nHere's what I think is going on. At twenty, being new at something is normal. Everyone's new. It's called learning. Somewhere around forty, being new starts to feel like being exposed - like everyone can see that you don't know. So we don't start. We call it being busy.\n\nBut you've been a beginner before. Your first job. Your first car. The first time someone put you in charge of something and you had no idea what you were doing. You weren't broken then. You were new. And you got good.\n\nThe only thing that's changed is that now you know what good looks like, so being new feels louder. That's not a weakness. That's twenty years of taste.\n\nBeginner is a place you stand, not a thing you are. You're allowed to stand there again.\n\nSo tell me - what would you start tomorrow if nobody was watching?"
+    },
+    {
+      "id": "D036",
+      "slot_utc": "2026-10-26T05:00:00Z",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "slides_dir": "slides/D036",
+      "slides": [
+        "D036_01.png",
+        "D036_02.png",
+        "D036_03.png",
+        "D036_04.png",
+        "D036_05.png",
+        "D036_06.png",
+        "D036_07.png",
+        "D036_08.png"
+      ],
+      "caption": "What the weekly shop looks like before and after one shared list on your phone - no new app, no more texting home from aisle six.\n\nOne list, shared with the house. Say it out loud when something runs out. It's on your screen when you walk in.\n\nWho in your house finishes the milk and tells nobody? Send them this.",
+      "hashtags": "#Decoded #TheTranslator #TechForRealLife #LifeSimplified #ShoppingList #FamilyOrganisation #AutomateTheSmallStuff #Over40",
+      "caption_fb": "Two versions of the same weekly shop.\n\nVersion one. The list is on the back of an envelope, which is on the kitchen counter, which is not where you are. Half of it is in your head. Someone finished the milk on Wednesday and told nobody. So you're in aisle six texting home - 'do we need anything?' - and the answer arrives when you're already in the car park.\n\nVersion two. Same shop, same budget, same people. But there's one list, and it lives on everyone's phone. Whoever finishes the milk says 'add milk to the shopping list' out loud while the fridge door is still open, and it's on the list before they've walked away. When you get to the shop, the list is already on your screen with everything the whole house added this week. Nobody texts. Nobody guesses. Nobody goes back.\n\nYou don't need a new app for this. The notes or reminders app already on your phone does shared lists. Make one called Shopping, share it with the people you live with, and show them the voice trick once.\n\nYou were never forgetful. The list just lived in five places.\n\nWho in your house finishes the milk and tells nobody? Send them this."
+    },
+    {
+      "id": "D034",
+      "slot_utc": "2026-10-28T10:30:00Z",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "slides_dir": "slides/D034",
+      "slides": [
+        "D034_01.png",
+        "D034_02.png",
+        "D034_03.png",
+        "D034_04.png",
+        "D034_05.png",
+        "D034_06.png",
+        "D034_07.png"
+      ],
+      "caption": "How to get a confusing letter from the bank, municipality or insurer explained in plain English - safely, with a free chat assistant.\n\nCover the private details, ask what you need to do and by when, and check anything involving money or deadlines with the sender.\n\nGot a letter you've been avoiding? Save this for when the next one lands.",
+      "hashtags": "#Decoded #TheTranslator #TechForRealLife #LifeSimplified #AIForBeginners #PlainEnglish #LifeAdmin #Over40",
+      "caption_fb": "There's a particular kind of letter that sits on the kitchen counter for a week.\n\nYou've opened it. You've read it twice. You understand every word and none of the meaning. Is this a bill? A warning? Do I have to do something, and if so, by when?\n\nYou're not slow. Most of these letters were written by people protecting themselves, not people trying to help you.\n\nHere's what I do. First, I cover the private bits - account numbers, ID number, my address. None of that is needed to understand the letter. Then I type the confusing paragraph into a free chat assistant and ask: \"Explain this in plain English. What do I need to do, and by when?\"\n\nNine times out of ten, the answer is one sentence and it's a relief.\n\nOne rule: it can get things wrong. So if money or a deadline is involved, I phone the sender on the number from their official website and confirm. The assistant translates. The sender decides.\n\nGot a letter you've been avoiding? Save this for when the next one lands."
+    },
+    {
+      "id": "D037",
+      "slot_utc": "2026-10-29T17:30:00Z",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "slides_dir": "slides/D037",
+      "slides": [
+        "D037_01.png",
+        "D037_02.png",
+        "D037_03.png",
+        "D037_04.png",
+        "D037_05.png",
+        "D037_06.png",
+        "D037_07.png"
+      ],
+      "caption": "Feeling cautious about new apps and AI isn't the same as falling behind. Hesitation is usually a question nobody has answered yet.\n\nWhat's the one app you've been avoiding, and why? Tell me below. No judgement.",
+      "hashtags": "#Decoded #TheTranslator #TechForRealLife #LifeSimplified #DigitalConfidence #AIForBeginners #Over40",
+      "caption_fb": "A thought I keep coming back to.\n\nEvery week there's something new you're told to sign up for. A new app. A new AI. A new \"you have to be on this\". And if you pause, if you say \"hang on, what is this actually?\", someone decides you're bad with technology.\n\nI don't think you are.\n\nMost of the hesitation I see isn't fear of the button. It's a sensible question that nobody bothered to answer: what does this thing do with my information? Who sees it? Can I undo it?\n\nThat's not paranoia. That's the question a careful adult asks about a contract, a car, a bank account. We just stopped expecting anyone to ask it about apps.\n\nThe real complexity trap isn't that you're slow. It's being asked to tap \"Agree\" before anyone has explained what you're agreeing to.\n\nRushing doesn't fix that. Being shown does.\n\nSo I'm curious. What's the one app you've been avoiding - and what would you actually want to know before you tried it? Tell me below. No judgement."
+    },
+    {
+      "id": "D040",
+      "slot_utc": "2026-10-31T10:30:00Z",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "slides_dir": "slides/D040",
+      "slides": [
+        "D040_01.png",
+        "D040_02.png",
+        "D040_03.png",
+        "D040_04.png",
+        "D040_05.png",
+        "D040_06.png",
+        "D040_07.png"
+      ],
+      "caption": "How to never miss a birthday again: add it to the person's contact once, and your phone's calendar reminds you every year - a few days early.\n\nNo new app. One minute per person.\n\nWhose birthday would you hate to miss this year? Add it tonight, and send this to the one who always forgets.",
+      "hashtags": "#Decoded #TheTranslator #TechForRealLife #LifeSimplified #NeverForget #FamilyOrganisation #AutomateTheSmallStuff #Over40",
+      "caption_fb": "Two versions of the same birthday.\n\nVersion one. It's nine at night and you're scrolling. There it is - someone else wishing them a happy birthday. Your stomach drops. You send the message anyway, with the long apology attached. \"Sorry, it's been a crazy week.\" It's been a crazy week every year.\n\nVersion two. Three days before, your phone taps you on the shoulder. Enough time to post a card, book a table, or at least plan the call. On the morning itself, it's there again. You phone before breakfast and you sound like someone who remembered. Because this time, you did.\n\nThe difference isn't that you became a more thoughtful person. You were always thoughtful. The date just lived in your head, and your head is busy.\n\nSet it up once: open the person in your contacts and add their birthday. Your calendar picks it up and shows it every year. Then, in your calendar settings, set birthday alerts for a few days before.\n\nWhose birthday would you hate to miss this year? Add it tonight - and send this to the one in your life who always forgets."
+    },
+    {
+      "id": "D039",
+      "slot_utc": "2026-11-02T05:00:00Z",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "slides_dir": "slides/D039",
+      "slides": [
+        "D039_01.png",
+        "D039_02.png",
+        "D039_03.png",
+        "D039_04.png",
+        "D039_05.png",
+        "D039_06.png",
+        "D039_07.png",
+        "D039_08.png"
+      ],
+      "caption": "How to stop typing your email address on your phone: set up a text shortcut once, and two characters fill in the whole thing.\n\nNo new app. It's already in your keyboard settings.\n\nWhat do you type most often? Set that one up tonight - and send this to someone who'd love a shortcut.",
+      "hashtags": "#Decoded #TheTranslator #TechForRealLife #LifeSimplified #PhoneTips #TextShortcuts #AutomateTheSmallStuff #Over40",
+      "caption_fb": "Think about how many times this week you've typed your email address into a form. Letter by letter, on a tiny keyboard, fixing the typo, starting again.\n\nYou're not slow. Nobody ever told you the phone can remember it for you.\n\nSearch your phone's settings for \"text replacement\" or \"personal dictionary\" - it lives with the keyboard. Add the full phrase, like your email or your home address, and give it a short code nobody types by accident, like @@. Next time you type the code, your phone offers the full version. Tap. Done.\n\nOne rule: never save ID numbers, passwords or bank details this way. This is for the boring stuff.\n\nWhat do you type most often? Set that one up tonight."
+    },
+    {
+      "id": "D041",
+      "slot_utc": "2026-11-04T10:30:00Z",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "slides_dir": "slides/D041",
+      "slides": [
+        "D041_01.png",
+        "D041_02.png",
+        "D041_03.png",
+        "D041_04.png",
+        "D041_05.png",
+        "D041_06.png",
+        "D041_07.png",
+        "D041_08.png"
+      ],
+      "caption": "How to take a full-page screenshot on your phone: one image for the whole booking, recipe or set of directions - not six.\n\nTake a normal screenshot, tap the preview, look for \"Full page\", \"Scroll\" or \"Capture more\".\n\nWhat's the last thing you took six screenshots of? Save this for next time.",
+      "hashtags": "#Decoded #TheTranslator #TechForRealLife #LifeSimplified #PhoneTips #Screenshots #SmartphoneHacks #Over40",
+      "caption_fb": "You know the routine. The booking confirmation is long, so you screenshot the top, scroll, screenshot again, scroll again. Six pictures later, you're digging through your photos in the car park trying to find the one with the reference number.\n\nYour phone can take the whole page in one go. Nobody mentions it.\n\nTake a screenshot the way you always do. Tap the little preview that pops up. Look for \"Full page\", \"Scroll\" or \"Capture more\" - the wording depends on your phone. Let it capture to the bottom, then save. One file, in the right order.\n\nIt works best in your web browser. If the option doesn't appear, that screen doesn't support it. That's the app, not you.\n\nWhat's the last thing you took six screenshots of?"
+    },
+    {
+      "id": "D044",
+      "slot_utc": "2026-11-06T17:30:00Z",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "slides_dir": "slides/D044",
+      "slides": [
+        "D044_01.png",
+        "D044_02.png",
+        "D044_03.png",
+        "D044_04.png",
+        "D044_05.png",
+        "D044_06.png",
+        "D044_07.png"
+      ],
+      "caption": "Feeling behind with technology? You've already learned harder things than a phone setting - you just never had anyone slow down and show you.\n\nComplexity is just simplicity that hasn't been explained properly yet.\n\nWhat's one hard thing you learned that nobody gives you credit for? Tell me below.",
+      "hashtags": "#Decoded #TheTranslator #TechForRealLife #LifeSimplified #YoureNotBroken #MidlifeReinvention #LearnAtAnyAge",
+      "caption_fb": "Make a list with me for a second.\n\nYou learned to drive - clutch, mirrors, other people's bad decisions, all at once. You learned to read a payslip, a lease, a tax form. Maybe you ran a shift, a kitchen, a site, a team. Nobody was born knowing any of that. Someone showed you, or you worked it out the hard way.\n\nThen technology arrived and, somewhere along the way, everybody stopped showing anybody anything. You were just expected to know. And when you didn't, it felt like something was wrong with you.\n\nNothing is wrong with you. I taught for years, and I watched thousands of students learn things they were certain they'd never get. The ones who got there weren't smarter. Someone explained it properly.\n\nComplexity is just simplicity that hasn't been explained properly yet.\n\nWhat's one hard thing you learned that nobody gives you credit for? Tell me below - I read every one."
+    },
+    {
+      "id": "D038",
+      "slot_utc": "2026-11-07T10:30:00Z",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "slides_dir": "slides/D038",
+      "slides": [
+        "D038_01.png",
+        "D038_02.png",
+        "D038_03.png",
+        "D038_04.png",
+        "D038_05.png",
+        "D038_06.png",
+        "D038_07.png",
+        "D038_08.png"
+      ],
+      "caption": "How to use your phone as a magnifying glass: search your phone for \"Magnifier\", add it to quick settings, and read the small print on medicine boxes, menus and the back of the router.\n\nNo new app. It came with your phone.\n\nWhere do you squint the most? Save this, and send it to someone who reads at arm's length.",
+      "hashtags": "#Decoded #TheTranslator #TechForRealLife #LifeSimplified #PhoneTips #Accessibility #HiddenFeatures #Over40",
+      "caption_fb": "Somewhere in your house there's a medicine box with a dosage printed in a font designed for ants. And a router with a serial number stuck behind the TV where no light has ever reached.\n\nYou squint. You hold it at arm's length. You guess.\n\nYour eyes aren't the problem. The print is too small - and your phone already has the fix. Search it for \"Magnifier\". On many phones it's already there; if yours doesn't have it, the camera zoom does the job in a pinch. Add it to your control panel or quick settings so it's one tap away. Then point, zoom, switch the light on if it's dark, and freeze the picture so you can read it properly.\n\nNo new app. No reading glasses hunt.\n\nWhere do you squint the most?"
+    },
+    {
+      "id": "D045",
+      "slot_utc": "2026-11-09T05:00:00Z",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "slides_dir": "slides/D045",
+      "slides": [
+        "D045_01.png",
+        "D045_02.png",
+        "D045_03.png",
+        "D045_04.png",
+        "D045_05.png",
+        "D045_06.png",
+        "D045_07.png"
+      ],
+      "caption": "Your phone's first screen is probably full of things you never touch. Your people should be on it instead.\n\nFavourite the few you actually call, add a shortcut up front, clear the rest. Two minutes.\n\nWho's the first person on your front page? Send this to someone whose screen needs it.",
+      "hashtags": "#Decoded #TheTranslator #TechForRealLife #LifeSimplified #HomeScreen #PhoneTips #Over40 #SimplifyYourLife",
+      "caption_fb": "Quick one for today.\n\nCount the icons on your phone's first screen. Now count the ones you touched this week. The gap is usually big, and it isn't your fault. Phones are set up with what somebody else thought you'd want.\n\nSo flip it. Pick the handful of people you actually call. Favourite them, so they're one tap away. Add a contact shortcut to your first screen. Then clear out whatever you never open.\n\nTwo minutes. And your phone starts working for you instead of the other way round.\n\nWho's the first person on your front page? Tell me below."
+    },
+    {
+      "id": "D042",
+      "slot_utc": "2026-11-11T10:30:00Z",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "slides_dir": "slides/D042",
+      "slides": [
+        "D042_01.png",
+        "D042_02.png",
+        "D042_03.png",
+        "D042_04.png",
+        "D042_05.png",
+        "D042_06.png",
+        "D042_07.png"
+      ],
+      "caption": "Most of us keep our phone close and our emergency details nowhere. Your phone has a place for exactly this. Set it up once, then forget it.\n\nAdd a contact, add the basics, know the shortcut. That's it.\n\nWho's on your emergency list? Send this to someone who'd never get round to it.",
+      "hashtags": "#Decoded #TheTranslator #TechForRealLife #LifeSimplified #PhoneTips #EmergencyContacts #Over40 #SimplifyYourLife",
+      "caption_fb": "A calm one today.\n\nMost of us keep our phone within arm's reach all day and our emergency details nowhere at all. That isn't carelessness. Nobody showed us the screen that exists for this.\n\nIt takes a few minutes, once. Add an emergency contact, someone who should be called if you can't do it yourself. Add the basic medical details your phone has a place for. And check how your phone calls for help quickly, so you're not learning it on a bad day.\n\nThen it just waits in the background, doing nothing, until the day it matters.\n\nWho's on your emergency list? Tell me below, and send this to someone who'd never get round to it."
+    },
+    {
+      "id": "D046",
+      "slot_utc": "2026-11-13T17:30:00Z",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "slides_dir": "slides/D046",
+      "slides": [
+        "D046_01.png",
+        "D046_02.png",
+        "D046_03.png",
+        "D046_04.png",
+        "D046_05.png",
+        "D046_06.png",
+        "D046_07.png"
+      ],
+      "caption": "Every setting you change once is a decision you never make again.\n\nAudit the noise. Eliminate what you don't need. Automate what repeats. Ten minutes now, and the question never comes back.\n\nWhat's one thing your phone keeps asking you that you've already answered? Tell me below.",
+      "hashtags": "#Decoded #TheTranslator #TechForRealLife #LifeSimplified #DecisionFatigue #Automation #Over40 #SimplifyYourLife",
+      "caption_fb": "A thought I keep coming back to.\n\nThink about how many small decisions your phone asks of you in a day. Which alert. Which update. Which volume. Which app.\n\nI don't think you're tired because life is hard. I think you're tired of deciding the same thing again and again.\n\nThe method is plain: audit the noise, eliminate what you don't need, automate what repeats. It's less exciting than it sounds, and it works. A setting changed once is a decision made for good. That's the trade. Ten minutes now, and the question never comes back.\n\nSo what's one thing your phone keeps asking you that you've already answered? Tell me below."
+    },
+    {
+      "id": "D033",
+      "slot_utc": "2026-11-16T05:00:00Z",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "slides_dir": "slides/D033",
+      "slides": [
+        "D033_01.png",
+        "D033_02.png",
+        "D033_03.png",
+        "D033_04.png",
+        "D033_05.png",
+        "D033_06.png",
+        "D033_07.png"
+      ],
+      "caption": "The email you've been avoiding for a week doesn't need the right words. It needs a first draft.\n\n1. Tell a free chat assistant the situation in plain words.\n2. Ask for a short, polite draft.\n3. Read it out loud and make it sound like you.\n\nTen minutes of dread, down to two minutes of editing. Keep names and account numbers out of the chat.\n\nWhat's the one message you've been putting off? Tell me below.",
+      "hashtags": "#Decoded #TheTranslator #TechForRealLife #LifeSimplified #AIForBeginners #Over40 #SimplifyYourLife #EmailTips",
+      "caption_fb": "There's usually one message sitting in the back of your head. A reply to the school, a note to a landlord, an email to someone you owe an answer. It isn't hard. It's heavy, because you don't know how to start.\n\nHere's the simple version. Open a free chat assistant and describe the situation in plain words: who it's for, what happened, what you need. Then ask for a short, polite draft, under 100 words. Read it out loud. Change anything that doesn't sound like you. Send it.\n\nThe tool writes the first draft. You stay the author. One tip: leave out names, ID numbers and account details, you don't need them for a good draft.\n\nWhat's the one message you've been putting off? Tell me below."
+    },
+    {
+      "id": "D043",
+      "slot_utc": "2026-11-18T10:30:00Z",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "slides_dir": "slides/D043",
+      "slides": [
+        "D043_01.png",
+        "D043_02.png",
+        "D043_03.png",
+        "D043_04.png",
+        "D043_05.png",
+        "D043_06.png",
+        "D043_07.png"
+      ],
+      "caption": "You're not missing it. It's just muted.\n\nYour phone can write subtitles for any video or voice note, so you can watch on a train, in a waiting room, or next to someone asleep.\n\n1. Look in your accessibility settings for Live Captions.\n2. Switch it on once.\n\nNo more turning it up and getting stared at. Decide once, and the awkward moment is gone. Can't find it? Search \"captions\" in Settings.\n\nSound on or sound off. Which one are you? Send this to the person who watches everything on mute.",
+      "hashtags": "#Decoded #TheTranslator #TechForRealLife #LifeSimplified #LiveCaptions #Accessibility #Over40 #PhoneTips",
+      "caption_fb": "Most of us have been there. You're on a train, in a waiting room, or next to someone who's finally asleep. The video is playing, the volume is off, and you're missing half of it.\n\nYou're not missing it. It's just muted. Your phone has a feature, usually called Live Captions, that writes subtitles for videos and voice notes right on the phone. You switch it on once, in your accessibility settings. The name changes a little from phone to phone, so if you can't spot it, search \"captions\" in Settings.\n\nNo more turning it up and getting stared at. No more asking what he said. Decide once and the awkward moment is gone.\n\nSound on or sound off. Which one are you?"
+    },
+    {
+      "id": "D047",
+      "slot_utc": "2026-11-23T05:00:00Z",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "slides_dir": "slides/D047",
+      "slides": [
+        "D047_01.png",
+        "D047_02.png",
+        "D047_03.png",
+        "D047_04.png",
+        "D047_05.png",
+        "D047_06.png",
+        "D047_07.png"
+      ],
+      "caption": "Your head is not a filing cabinet. Say it out loud instead.\n\nVoice note, then ask an AI assistant to turn it into a short to-do list, most urgent first. Check it, fix it, done. One minute.\n\nWhat's the first thing you'd say into it? Save this for Sunday night.",
+      "hashtags": "#Decoded #TheTranslator #TechForRealLife #LifeSimplified #VoiceNotes #AITips #Over40 #SimplifyYourLife",
+      "caption_fb": "Most of us carry a running list in our heads and then wonder why we're tired.\n\nHere's a way to put it down. Open the voice recorder on your phone and talk through everything you're carrying, in any order. Don't tidy it. If your phone turns the recording into text, copy that into whichever AI assistant you already use and ask it to turn it into a short to-do list, most urgent first.\n\nThen read it. Cross off anything it got wrong. You stay in charge, it only sorts. And keep passwords and anything private out of it.\n\nOne minute, and your head gets quieter. What's the first thing you'd say into it?"
+    },
+    {
+      "id": "D048",
+      "slot_utc": "2026-11-25T10:30:00Z",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "slides_dir": "slides/D048",
+      "slides": [
+        "D048_01.png",
+        "D048_02.png",
+        "D048_03.png",
+        "D048_04.png",
+        "D048_05.png",
+        "D048_06.png",
+        "D048_07.png",
+        "D048_08.png"
+      ],
+      "caption": "A message that rushes you is a message to slow down.\n\nLook for the deadline or the threat. Don't tap the link: open the real app or type the site yourself. Show someone before you reply.\n\nAlready tapped? Call your bank on the number on your card, now. Send this to the person who gets 'urgent' messages.",
+      "hashtags": "#Decoded #TheTranslator #TechForRealLife #LifeSimplified #ScamAwareness #StaySafeOnline #Over40 #PhoneTips",
+      "caption_fb": "Scam messages almost all do one thing: they rush you. 'Your account closes today.' 'Pay now.' A real company gives you time. A scammer needs you panicking, because panic is when we stop checking.\n\nSo here's a three-second check. One: notice the rush. Two: don't tap the link in the message. Open the company's own app, or type the website yourself. Three: show it to someone you trust before you reply.\n\nAnd if you already tapped, it happens to sharp, careful people every day. Phone your bank on the number printed on your card, and do it now. No shame in it.\n\nBeing careful isn't being slow. It's being hard to fool. Send this to someone who gets a lot of urgent messages."
+    },
+    {
+      "id": "D049",
+      "slot_utc": "2026-11-27T17:30:00Z",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "slides_dir": "slides/D049",
+      "slides": [
+        "D049_01.png",
+        "D049_02.png",
+        "D049_03.png",
+        "D049_04.png",
+        "D049_05.png",
+        "D049_06.png",
+        "D049_07.png"
+      ],
+      "caption": "Your photos are one dropped phone from gone.\n\nFind the backup setting, switch it on, leave it overnight on charge. Tomorrow, look for the word complete. Ten minutes.\n\nDo it tonight and tell me when it says complete. Send this to someone with a camera roll full of memories and no backup.",
+      "hashtags": "#Decoded #TheTranslator #TechForRealLife #LifeSimplified #PhotoBackup #PhoneTips #Over40 #SimplifyYourLife",
+      "caption_fb": "Think about what is on your phone that you could never take again. Birthdays. Holidays. Faces you love.\n\nNow think about how many places that lives. For most of us the answer is one, and it's a small device that can end up in a sink.\n\nHere's the fix. Search your phone's settings for backup, or photo backup. Your phone almost certainly has one built in. Switch it on. If data is expensive, choose Wi-Fi only, and leave it running overnight on charge. Tomorrow, check that it says complete. If it says storage is full, that's your real answer, and we sort that next.\n\nBacked up means two places. One place is not a backup. Do it tonight and tell me when it says complete."
+    },
+    {
+      "id": "D050",
+      "slot_utc": "2026-11-30T05:00:00Z",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "slides_dir": "slides/D050",
+      "slides": [
+        "D050_01.png",
+        "D050_02.png",
+        "D050_03.png",
+        "D050_04.png",
+        "D050_05.png",
+        "D050_06.png",
+        "D050_07.png"
+      ],
+      "caption": "You weren't bad at this. You were never shown.\n\nSay the true thing. Ask the plain question out loud. Learn one setting today, then stop.\n\nWhat's one thing you wish someone had shown you? Send this to someone who says they're hopeless at it.",
+      "hashtags": "#Decoded #TheTranslator #TechForRealLife #LifeSimplified #YoureNotBroken #BeginnerFriendly #Over40 #SimplifyYourLife",
+      "caption_fb": "Nobody was born knowing where the settings are.\n\nThe people who seem good with technology were shown once, by someone patient. Most of us never had that person, and somewhere along the way we decided the problem was us.\n\nIt isn't. 'I was never shown' is accurate. 'I'm bad at this' is not. So ask the plain question out loud: 'Where do I find that?' It's a complete sentence. Then learn one thing today. One setting, one tap, and stop.\n\nNot broken. Not behind. Just not shown yet. Tell me one thing you wish someone had shown you."
+    },
+    {
+      "id": "D051",
+      "slot_utc": "2026-12-02T10:30:00Z",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "slides_dir": "slides/D051",
+      "slides": [
+        "D051_01.png",
+        "D051_02.png",
+        "D051_03.png",
+        "D051_04.png",
+        "D051_05.png",
+        "D051_06.png",
+        "D051_07.png"
+      ],
+      "caption": "Ten minutes on Sunday. A calmer Monday.\n\nOne glance at the calendar. One list of three. One phone on charge.\n\nWhich date will you check tonight? Save this for Sunday.",
+      "hashtags": "#Decoded #TheTranslator #TechForRealLife #LifeSimplified #SundayReset #WeeklyPlanning #Over40 #SimplifyYourLife",
+      "caption_fb": "Monday doesn't feel heavy because of the work. It feels heavy because you walk in not knowing what's coming.\n\nHere's a ten-minute fix. Open your calendar and look at the week, and spot the two dates that matter most. Write down the three things that must happen, three, not thirty. Then put your phone on charge, set the alarm, and put the ringer where you want it.\n\nYou're not planning your week. You're just meeting it first. Which date will you check tonight?"
+    },
+    {
+      "id": "D052",
+      "slot_utc": "2026-12-04T17:30:00Z",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "slides_dir": "slides/D052",
+      "slides": [
+        "D052_01.png",
+        "D052_02.png",
+        "D052_03.png",
+        "D052_04.png",
+        "D052_05.png",
+        "D052_06.png",
+        "D052_07.png"
+      ],
+      "caption": "A red dot is a request, not an order.\n\nPick the three apps that genuinely need you. Switch off badges and banners for the rest. Nothing is deleted, they just stop shouting. Check the quiet ones once a day, when you choose.\n\nWhich app's red dot will you switch off first? Save this for tonight.",
+      "hashtags": "#Decoded #TheTranslator #TechForRealLife #LifeSimplified #Notifications #PhoneTips #Over40 #SimplifyYourLife",
+      "caption_fb": "A red number on an app feels like something you owe. Most of the time it's just an app asking for your attention.\n\nHere's the fix. Choose the three apps that genuinely need you: family, your bank, your calendar. Open Settings, search for notifications, and turn off the badges and banners for everything else. Nothing is deleted. Then look at the quiet ones once a day, when you decide.\n\nSame apps, no pressure. Which red dot will you switch off first?"
+    },
+    {
+      "id": "D053",
+      "slot_utc": "2026-12-07T05:00:00Z",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "slides_dir": "slides/D053",
+      "slides": [
+        "D053_01.png",
+        "D053_02.png",
+        "D053_03.png",
+        "D053_04.png",
+        "D053_05.png",
+        "D053_06.png",
+        "D053_07.png"
+      ],
+      "caption": "Most things that feel hard were never actually hard. They were explained badly, or fast, or not at all.\n\nComplexity is just simplicity that hasn't been explained properly yet.\n\nWhat felt impossible until someone explained it? Tell me below.",
+      "hashtags": "#Decoded #TheTranslator #TechForRealLife #LifeSimplified #NobodyShowedYou #ModernParadox #Over40 #MidlifeReset",
+      "caption_fb": "I've watched capable people decide they were 'not a tech person' because of one confusing afternoon years ago.\n\nConfusing is not the same as impossible. When something is explained slowly, in plain words, it usually turns out to be four small steps. The fear was the biggest part of it.\n\nComplexity is just simplicity that hasn't been explained properly yet. What felt impossible until someone explained it?"
     }
   ]
 }
